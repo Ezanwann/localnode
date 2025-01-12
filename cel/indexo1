@@ -1,0 +1,52 @@
+const fetch=require("node-fetch");
+const fs=require("fs");
+const readline = require('readline').createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+/*readline.question('Who are you?', name => {
+  console.log(`Hey there ${name}!`);
+  readline.close();
+});*/
+
+const cHost="https://apicl3.celcom.com.my";
+
+let msisdn="0138321592";
+
+async function secureToken(token){
+	let url="https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyCustomToken?key=AIzaSyAY_xgPxtljMmsFPn8NFDyN7S-eeqzI4Io";
+	let postBody={"token":token,"returnSecureToken":true};
+	let res=await fetch(url,{method:"POST",body:JSON.stringify(postBody)});
+	console.log("TOKEN IS :\n"+res.idToken);
+        fs.writeFileSync("token.txt",res.idToken);
+	return res.idToken;
+}
+
+async function otpVal(num,otp,sId){
+	let path="auth/token-create";
+	let postBody={"otp":otp,"type":"msisdn","sessionId":sId,"loginChannel":"otp","pushToken":"","networkType":"cellular","adId":"e12d7a5f-adf8-4f4b-8964-e8fa51e1a8c3","appVersion":"3.0.67","deviceModel":"CPH2387","deviceVersion":"14","deviceId":"889fa5074a7ab067","os":"android","referralCode":"","networkSpeed":"5"};
+	let res=await fetch(cHost+path,{method:"POST",body:JSON.stringify(postBody)});
+	let resJson=await res.json();
+	let token=resJson.token;
+	return secureToken(token);
+}
+
+async function otpGen(num){
+	let path="/auth/otp-generate";
+	let postBody={"msisdn":num};
+        let postHead={"content-type":"application/json"};
+	let res=await fetch(cHost+path,{method:"POST",headers:postHead,body:"{\"msisdn\":\"60138321592\"}"});
+	let resJson=await res.json();
+        console.log(resJson);
+	let sId=resJson.sessionId;
+        console.log("Session id: "+sId);
+	readline.question("Done requesting otp,enter below\n",e=>{
+		return otpVal(num,e,sId);
+		readline.close();
+	});
+}
+
+if(process.argv.length>2)msisdn=process.argv[2];
+//fs.writeFileSync("token.txt",otpGen(msisdn));
+otpGen(msisdn);

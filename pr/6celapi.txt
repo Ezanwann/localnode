@@ -1,0 +1,1654 @@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /deals-mgmt/pmOffers/paymentMethodsOffers?isDefault=true&lang=en
+[REQ]-----START HEADERS-----
+[REQ]x-dynatrace : MT_3_16_424649534_11-0_e9ba6289-2990-4491-bb2c-bc8c2d6c256b_0_4176_51
+[REQ]Accept : application/json
+[REQ]msisdn : 0138321592
+[REQ]Content-Type : application/json
+[REQ]connectionType : both
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]appVersion : 3.0.68
+[REQ]buildNumber : 200828
+[REQ]os : android
+[REQ]screenDensity : 2x
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:57:37 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=A2E8D99AF07F53889DC3E4346F371542; Path=/deals-mgmt; HttpOnly
+[RES]Set-Cookie : GCLB=CNKApIL30sW6GhAD; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:{"statusCode":0,"messageId":null,"message":null,"statusDesc":null,"title":null,"paymentMethodOffer":[{"label":"payment_option_screen.payment_option.ewallet","methodId":0,"icon":"https://storage.googleapis.com/celcom-life-app-public-image-bucket-prod/payment_methods/e_wallet.png","displayName":"e-Wallet","offerTitle":"Grab Pay, Boost","offerDesc":null,"tagline":"NEW","tncUrl":null,"newlyAdded":true,"ewallet":false},{"label":"payment_option_screen.payment_option.two","methodId":7,"icon":"https://storage.googleapis.com/celcom-life-app-public-image-bucket-prod/payment_methods/ic_bank.png","displayName":"Online Banking","offerTitle":null,"offerDesc":null,"tagline":null,"tncUrl":null,"newlyAdded":false,"ewallet":false},{"label":"payment_option_screen.payment_option.three","methodId":1,"icon":"https://storage.googleapis.com/celcom-life-app-public-image-bucket-prod/payment_methods/ic_card.png","displayName":"Credit/Debit Card","offerTitle":null,"offerDesc":null,"tagline":null,"tncUrl":null,"newlyAdded":false,"ewallet":false}],"paymentMethodEWalletOffers":[{"label":"payment_option_screen.payment_option.one","methodId":6,"icon":"https://storage.googleapis.com/celcom-life-app-public-image-bucket-prod/payment_methods/ic_boost.png","displayName":"Boost e-Wallet","offerTitle":null,"offerDesc":null,"tagline":null,"tncUrl":null,"newlyAdded":false,"ewallet":true},{"label":"payment_option_screen.payment_option.five","methodId":8,"icon":"https://storage.googleapis.com/celcom-life-app-public-image-bucket-prod/payment_methods/ic_grabPay.png","displayName":"GrabPay","offerTitle":null,"offerDesc":null,"tagline":null,"tncUrl":null,"newlyAdded":false,"ewallet":true}]}[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /app-manager/version/v2?lang=en
+[REQ]-----START HEADERS-----
+[REQ]x-dynatrace : MT_3_16_424649534_11-0_e9ba6289-2990-4491-bb2c-bc8c2d6c256b_6_4138_19
+[REQ]Accept : application/json
+[REQ]msisdn : 0138321592
+[REQ]Content-Type : application/json
+[REQ]segment : prepaid
+[REQ]appVersion : 3.0.68
+[REQ]buildNumber : 200828
+[REQ]os : android
+[REQ]screenDensity : 2x
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:57:37 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Cache-Control : max-age=300
+[RES]Set-Cookie : JSESSIONID=9Klj52jZIdy1Qyvu7dXLCVugsj26oQLMOHnKuLuK; path=/app-manager
+[RES]Set-Cookie : GCLB=CM2G85262JH5NhAD; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:{"maintenanceRecord":null,"appUpdate":{"update":false,"forceUpdate":false,"storeUrl":"https://play.google.com/store/apps/details?id=com.celcom.mycelcom&hl=en","title":"New version of Celcom Life is here!","changeLogs":[],"image":"image_url","message":"We’ve got more app improvements for you. Update now to enjoy!","imageUrl":{"postpaid":"https://storage.googleapis.com/celcom-life-app-public-image-bucket-dev/force_update_theme_images/postpaid/maintainance@2x.png","prepaid":"https://storage.googleapis.com/celcom-life-app-public-image-bucket-dev/force_update_theme_images/prepaid/maintainance@2x.png"}},"statusCode":0,"statusDesc":"Success","errorMessage":"We’ve got more app improvements for you. Update now to enjoy!","firebaseErrorCode":{"auth":["auth/invalid-app-credential","auth/app-deleted","auth/expired-action-code","auth/invalid-action-code","auth/user-disabled","auth/user-not-found","auth/weak-password","auth/email-already-in-use","auth/invalid-email","auth/operation-not-allowed","auth/account-exists-with-different-credential","auth/auth-domain-config-required","auth/credential-already-in-use","auth/operation-not-supported-in-this-environment","auth/timeout","auth/missing-android-pkg-name","auth/missing-continue-uri","auth/missing-ios-bundle-id","auth/invalid-continue-uri","auth/unauthorized-continue-uri","auth/invalid-dynamic-link-domain","auth/argument-error","auth/invalid-persistence-type","auth/unsupported-persistence-type","auth/invalid-credential","auth/wrong-password","auth/invalid-verification-code","auth/invalid-verification-id","auth/custom-token-mismatch","auth/invalid-custom-token","auth/captcha-check-failed","auth/invalid-phone-number","auth/missing-phone-number","auth/quota-exceeded","auth/cancelled-popup-request","auth/popup-blocked","auth/popup-closed-by-user","auth/unauthorized-domain","auth/invalid-user-token","auth/user-token-expired","auth/null-user","auth/app-not-authorized","auth/invalid-api-key","auth/network-request-failed","auth/requires-recent-login","auth/too-many-requests","auth/web-storage-unsupported","auth/invalid-claims","auth/claims-too-large","auth/id-token-expired","auth/id-token-revoked","auth/invalid-argument","auth/invalid-creation-time","auth/invalid-disabled-field","auth/invalid-display-name","auth/invalid-email-verified","auth/invalid-hash-algorithm","auth/invalid-hash-block-size","auth/invalid-hash-derived-key-length","auth/invalid-hash-key","auth/invalid-hash-memory-cost","auth/invalid-hash-parallelization","auth/invalid-hash-rounds","auth/invalid-hash-salt-separator","auth/invalid-id-token","auth/invalid-last-sign-in-time","auth/invalid-page-token","auth/invalid-password","auth/invalid-password-hash","auth/invalid-password-salt","auth/invalid-photo-url","auth/invalid-provider-id","auth/invalid-session-cookie-duration","auth/invalid-uid","auth/invalid-user-import","auth/invalid-provider-data","auth/maximum-user-count-exceeded","auth/missing-hash-algorithm","auth/missing-uid","auth/reserved-claims","auth/session-cookie-revoked","auth/uid-alread-exists","auth/email-already-exists","auth/phone-number-already-exists","auth/project-not-found","auth/insufficient-permission","auth/internal-error"]},"homeServiceWaitTimeInSeconds":"30000","[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /app-manager/version/v2?lang=en
+[REQ]-----START HEADERS-----
+[REQ]x-dynatrace : MT_3_16_424649534_11-0_e9ba6289-2990-4491-bb2c-bc8c2d6c256b_6_4138_19
+[REQ]Accept : application/json
+[REQ]msisdn : 0138321592
+[REQ]Content-Type : application/json
+[REQ]segment : prepaid
+[REQ]appVersion : 3.0.68
+[REQ]buildNumber : 200828
+[REQ]os : android
+[REQ]screenDensity : 2x
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:57:37 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Cache-Control : max-age=300
+[RES]Set-Cookie : JSESSIONID=9Klj52jZIdy1Qyvu7dXLCVugsj26oQLMOHnKuLuK; path=/app-manager
+[RES]Set-Cookie : GCLB=CM2G85262JH5NhAD; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:restartPopupEnabled":true}[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /app-manager/version/v2?lang=en
+[REQ]-----START HEADERS-----
+[REQ]x-dynatrace : MT_3_16_424649534_11-0_e9ba6289-2990-4491-bb2c-bc8c2d6c256b_0_4143_45
+[REQ]Accept : application/json
+[REQ]msisdn : 0138321592
+[REQ]Content-Type : application/json
+[REQ]segment : prepaid
+[REQ]appVersion : 3.0.68
+[REQ]buildNumber : 200828
+[REQ]os : android
+[REQ]screenDensity : 2x
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:57:37 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Cache-Control : max-age=300
+[RES]Set-Cookie : JSESSIONID=2j0CZKYnKd9C4pdNsH8KNq9Kh0G5Phwt85AbmOz9; path=/app-manager
+[RES]Set-Cookie : GCLB=CIH_9MaQs4HUBBAD; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:{"maintenanceRecord":null,"appUpdate":{"update":false,"forceUpdate":false,"storeUrl":"https://play.google.com/store/apps/details?id=com.celcom.mycelcom&hl=en","title":"New version of Celcom Life is here!","changeLogs":[],"image":"image_url","message":"We’ve got more app improvements for you. Update now to enjoy!","imageUrl":{"postpaid":"https://storage.googleapis.com/celcom-life-app-public-image-bucket-dev/force_update_theme_images/postpaid/maintainance@2x.png","prepaid":"https://storage.googleapis.com/celcom-life-app-public-image-bucket-dev/force_update_theme_images/prepaid/maintainance@2x.png"}},"statusCode":0,"statusDesc":"Success","errorMessage":"We’ve got more app improvements for you. Update now to enjoy!","firebaseErrorCode":{"auth":["auth/invalid-app-credential","auth/app-deleted","auth/expired-action-code","auth/invalid-action-code","auth/user-disabled","auth/user-not-found","auth/weak-password","auth/email-already-in-use","auth/invalid-email","auth/operation-not-allowed","auth/account-exists-with-different-credential","auth/auth-domain-config-required","auth/credential-already-in-use","auth/operation-not-supported-in-this-environment","auth/timeout","auth/missing-android-pkg-name","auth/missing-continue-uri","auth/missing-ios-bundle-id","auth/invalid-continue-uri","auth/unauthorized-continue-uri","auth/invalid-dynamic-link-domain","auth/argument-error","auth/invalid-persistence-type","auth/unsupported-persistence-type","auth/invalid-credential","auth/wrong-password","auth/invalid-verification-code","auth/invalid-verification-id","auth/custom-token-mismatch","auth/invalid-custom-token","auth/captcha-check-failed","auth/invalid-phone-number","auth/missing-phone-number","auth/quota-exceeded","auth/cancelled-popup-request","auth/popup-blocked","auth/popup-closed-by-user","auth/unauthorized-domain","auth/invalid-user-token","auth/user-token-expired","auth/null-user","auth/app-not-authorized","auth/invalid-api-key","auth/network-request-failed","auth/requires-recent-login","auth/too-many-requests","auth/web-storage-unsupported","auth/invalid-claims","auth/claims-too-large","auth/id-token-expired","auth/id-token-revoked","auth/invalid-argument","auth/invalid-creation-time","auth/invalid-disabled-field","auth/invalid-display-name","auth/invalid-email-verified","auth/invalid-hash-algorithm","auth/invalid-hash-block-size","auth/invalid-hash-derived-key-length","auth/invalid-hash-key","auth/invalid-hash-memory-cost","auth/invalid-hash-parallelization","auth/invalid-hash-rounds","auth/invalid-hash-salt-separator","auth/invalid-id-token","auth/invalid-last-sign-in-time","auth/invalid-page-token","auth/invalid-password","auth/invalid-password-hash","auth/invalid-password-salt","auth/invalid-photo-url","auth/invalid-provider-id","auth/invalid-session-cookie-duration","auth/invalid-uid","auth/invalid-user-import","auth/invalid-provider-data","auth/maximum-user-count-exceeded","auth/missing-hash-algorithm","auth/missing-uid","auth/reserved-claims","auth/session-cookie-revoked","auth/uid-alread-exists","auth/[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /app-manager/version/v2?lang=en
+[REQ]-----START HEADERS-----
+[REQ]x-dynatrace : MT_3_16_424649534_11-0_e9ba6289-2990-4491-bb2c-bc8c2d6c256b_0_4143_45
+[REQ]Accept : application/json
+[REQ]msisdn : 0138321592
+[REQ]Content-Type : application/json
+[REQ]segment : prepaid
+[REQ]appVersion : 3.0.68
+[REQ]buildNumber : 200828
+[REQ]os : android
+[REQ]screenDensity : 2x
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:57:37 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Cache-Control : max-age=300
+[RES]Set-Cookie : JSESSIONID=2j0CZKYnKd9C4pdNsH8KNq9Kh0G5Phwt85AbmOz9; path=/app-manager
+[RES]Set-Cookie : GCLB=CIH_9MaQs4HUBBAD; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:email-already-exists","auth/phone-number-already-exists","auth/project-not-found","auth/insufficient-permission","auth/internal-error"]},"homeServiceWaitTimeInSeconds":"30000","restartPopupEnabled":true}[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /inbox-notification-push/message/0138321592/general?lastRetrievalDate=1735710317174&lang=en
+[REQ]-----START HEADERS-----
+[REQ]x-dynatrace : MT_3_16_424649534_11-0_e9ba6289-2990-4491-bb2c-bc8c2d6c256b_0_4181_55
+[REQ]Accept : application/json
+[REQ]Content-Type : application/json
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]encryptedMsisdn : 95c935c4aad353e15174fb2721411d9e
+[REQ]appVersion : 3.0.68
+[REQ]buildNumber : 200828
+[REQ]os : android
+[REQ]screenDensity : 2x
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:57:37 GMT
+[RES]Content-Type : application/json
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=5D82C4468B8C0E24A12AE9930F016C89; Path=/inbox-notification-push; Secure; HttpOnly
+[RES]Set-Cookie : GCLB=CLymmY7p3vqG3QEQAw; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:{"statusCode":0,"messageId":null,"message":"Success","statusDesc":null,"totalCount":1,"unreadCount":0,"newCount":0,"currentDate":"1735711057683","messages":[{"messageHeader":"Switch plan for more value! \uD83D\uDE09","messageBody":"Switch to XPAX Postpaid 60 for a value combo at RM60! Get 60GB 5G & a brand new 5G Phone for only RM119! Visit the nearest Bluecube now. While stock last. T&C","bannerImage":null,"type":"PUSH_NOTIFICATION","additionalInfo":{"pushData":{"link":"https://cd.link/rahmahs3","deepLinkCTA":"Visit Bluecube"}},"messageBodyType":"JSON","messageCategory":"general","systemMessageId":"4570908872","createDate":"2023-09-15T07:24:37.066+0000","expiryDate":null,"readStatus":1,"expiryStatus":0,"messageId":0,"userKey":null,"msis[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /inbox-notification-push/message/0138321592/general?lastRetrievalDate=1735710317174&lang=en
+[REQ]-----START HEADERS-----
+[REQ]x-dynatrace : MT_3_16_424649534_11-0_e9ba6289-2990-4491-bb2c-bc8c2d6c256b_0_4181_55
+[REQ]Accept : application/json
+[REQ]Content-Type : application/json
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]encryptedMsisdn : 95c935c4aad353e15174fb2721411d9e
+[REQ]appVersion : 3.0.68
+[REQ]buildNumber : 200828
+[REQ]os : android
+[REQ]screenDensity : 2x
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:57:37 GMT
+[RES]Content-Type : application/json
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=5D82C4468B8C0E24A12AE9930F016C89; Path=/inbox-notification-push; Secure; HttpOnly
+[RES]Set-Cookie : GCLB=CLymmY7p3vqG3QEQAw; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:dn":"0192259151"}],"tabInfo":[{"index":1,"headerTitle":"General"},{"index":2,"headerTitle":"Report Status"}]}[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES(has body)@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: POST
+[REQ]Path: /inbox-notification-push/registration?lang=en
+[REQ]-----START HEADERS-----
+[REQ]x-dynatrace : MT_3_16_424649534_11-0_e9ba6289-2990-4491-bb2c-bc8c2d6c256b_0_4187_61
+[REQ]Accept : application/json
+[REQ]msisdn : 0138321592
+[REQ]Content-Type : application/json
+[REQ]currentMSISDN : 0138321592
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]appVersion : 3.0.68
+[REQ]buildNumber : 200828
+[REQ]os : android
+[REQ]screenDensity : 2x
+[REQ]Accept-Charset : UTF-8
+[REQ]Content-length : 428
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]++++++START BODY++++++
+[REQ]BODY:
+{"firebaseToken":"eRXfJBlsR9O6Om0NOfU_Ap:APA91bGaNJDRpdixdABNdlJKGlf3d4I09aeXJvrQkGrfclniinHezYrYZ3z_4P8APwGTIUXgnFnfqlGtE2YUum0uffB6eJG29GUsa4ayowtOU3n8jUxqxzc","additionalKey":"9944570ea8bae18a","notificationKey":"0138321592","networkType":"cellular","adId":"e12d7a5f-adf8-4f4b-8964-e8fa51e1a8c3","appVersion":"3.0.68","deviceModel":"CPH2387","deviceVersion":"14","deviceId":"9944570ea8bae18a","os":"android","networkSpeed":0}[REQ]
++++++++END BODY++++++
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:57:37 GMT
+[RES]Content-Type : application/json
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=A10F3851B77AB2AF638362D598D93C5A; Path=/inbox-notification-push; Secure; HttpOnly
+[RES]Set-Cookie : GCLB=CKOz1P-R2oyWBBAD; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:{[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES(has body)@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: POST
+[REQ]Path: /inbox-notification-push/registration?lang=en
+[REQ]-----START HEADERS-----
+[REQ]x-dynatrace : MT_3_16_424649534_11-0_e9ba6289-2990-4491-bb2c-bc8c2d6c256b_0_4187_61
+[REQ]Accept : application/json
+[REQ]msisdn : 0138321592
+[REQ]Content-Type : application/json
+[REQ]currentMSISDN : 0138321592
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]appVersion : 3.0.68
+[REQ]buildNumber : 200828
+[REQ]os : android
+[REQ]screenDensity : 2x
+[REQ]Accept-Charset : UTF-8
+[REQ]Content-length : 428
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]++++++START BODY++++++
+[REQ]BODY:
+{"firebaseToken":"eRXfJBlsR9O6Om0NOfU_Ap:APA91bGaNJDRpdixdABNdlJKGlf3d4I09aeXJvrQkGrfclniinHezYrYZ3z_4P8APwGTIUXgnFnfqlGtE2YUum0uffB6eJG29GUsa4ayowtOU3n8jUxqxzc","additionalKey":"9944570ea8bae18a","notificationKey":"0138321592","networkType":"cellular","adId":"e12d7a5f-adf8-4f4b-8964-e8fa51e1a8c3","appVersion":"3.0.68","deviceModel":"CPH2387","deviceVersion":"14","deviceId":"9944570ea8bae18a","os":"android","networkSpeed":0}[REQ]
++++++++END BODY++++++
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:57:37 GMT
+[RES]Content-Type : application/json
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=A10F3851B77AB2AF638362D598D93C5A; Path=/inbox-notification-push; Secure; HttpOnly
+[RES]Set-Cookie : GCLB=CKOz1P-R2oyWBBAD; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:"[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES(has body)@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: POST
+[REQ]Path: /inbox-notification-push/registration?lang=en
+[REQ]-----START HEADERS-----
+[REQ]x-dynatrace : MT_3_16_424649534_11-0_e9ba6289-2990-4491-bb2c-bc8c2d6c256b_0_4187_61
+[REQ]Accept : application/json
+[REQ]msisdn : 0138321592
+[REQ]Content-Type : application/json
+[REQ]currentMSISDN : 0138321592
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]appVersion : 3.0.68
+[REQ]buildNumber : 200828
+[REQ]os : android
+[REQ]screenDensity : 2x
+[REQ]Accept-Charset : UTF-8
+[REQ]Content-length : 428
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]++++++START BODY++++++
+[REQ]BODY:
+{"firebaseToken":"eRXfJBlsR9O6Om0NOfU_Ap:APA91bGaNJDRpdixdABNdlJKGlf3d4I09aeXJvrQkGrfclniinHezYrYZ3z_4P8APwGTIUXgnFnfqlGtE2YUum0uffB6eJG29GUsa4ayowtOU3n8jUxqxzc","additionalKey":"9944570ea8bae18a","notificationKey":"0138321592","networkType":"cellular","adId":"e12d7a5f-adf8-4f4b-8964-e8fa51e1a8c3","appVersion":"3.0.68","deviceModel":"CPH2387","deviceVersion":"14","deviceId":"9944570ea8bae18a","os":"android","networkSpeed":0}[REQ]
++++++++END BODY++++++
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:57:37 GMT
+[RES]Content-Type : application/json
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=A10F3851B77AB2AF638362D598D93C5A; Path=/inbox-notification-push; Secure; HttpOnly
+[RES]Set-Cookie : GCLB=CKOz1P-R2oyWBBAD; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:s[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES(has body)@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: POST
+[REQ]Path: /inbox-notification-push/registration?lang=en
+[REQ]-----START HEADERS-----
+[REQ]x-dynatrace : MT_3_16_424649534_11-0_e9ba6289-2990-4491-bb2c-bc8c2d6c256b_0_4187_61
+[REQ]Accept : application/json
+[REQ]msisdn : 0138321592
+[REQ]Content-Type : application/json
+[REQ]currentMSISDN : 0138321592
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]appVersion : 3.0.68
+[REQ]buildNumber : 200828
+[REQ]os : android
+[REQ]screenDensity : 2x
+[REQ]Accept-Charset : UTF-8
+[REQ]Content-length : 428
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]++++++START BODY++++++
+[REQ]BODY:
+{"firebaseToken":"eRXfJBlsR9O6Om0NOfU_Ap:APA91bGaNJDRpdixdABNdlJKGlf3d4I09aeXJvrQkGrfclniinHezYrYZ3z_4P8APwGTIUXgnFnfqlGtE2YUum0uffB6eJG29GUsa4ayowtOU3n8jUxqxzc","additionalKey":"9944570ea8bae18a","notificationKey":"0138321592","networkType":"cellular","adId":"e12d7a5f-adf8-4f4b-8964-e8fa51e1a8c3","appVersion":"3.0.68","deviceModel":"CPH2387","deviceVersion":"14","deviceId":"9944570ea8bae18a","os":"android","networkSpeed":0}[REQ]
++++++++END BODY++++++
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:57:37 GMT
+[RES]Content-Type : application/json
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=A10F3851B77AB2AF638362D598D93C5A; Path=/inbox-notification-push; Secure; HttpOnly
+[RES]Set-Cookie : GCLB=CKOz1P-R2oyWBBAD; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:tatusCode":0,"messageId":null,"message":null,"statusDesc":null}[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /subscriber-contract-mgmt/customer/accounts/0138321592?lang=en
+[REQ]-----START HEADERS-----
+[REQ]x-dynatrace : MT_3_16_424649534_11-0_e9ba6289-2990-4491-bb2c-bc8c2d6c256b_0_4183_57
+[REQ]Accept : application/json
+[REQ]Content-Type : application/json
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]appVersion : 3.0.68
+[REQ]buildNumber : 200828
+[REQ]os : android
+[REQ]screenDensity : 2x
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:57:37 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=CEE504A6190D804E83F573ACE707EBA2; Path=/subscriber-contract-mgmt; HttpOnly
+[RES]Set-Cookie : GCLB=CK3C3be82P_azwEQAw; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:{"statusCode":0,"statusDesc":"Success","messageId":null,"message":null,"title":null,"ctaText":null,"services":[{"mobileNumber":"0138321592","assetBillingAccountNo":"A200083317","prePosIndicator":"Prepaid","primary":true,"theme":"Prepaid","subscribertype":"Prepaid","name":null,"segmentCode":"10","billCycle":"01","neptunePlan":false,"starPlan":false,"xmenPlan":false,"customerIDType":"New NRIC","customerID":"720514125755","segment":"prepaid","registeredIdType":"New NRIC","partial":false,"eligibleInternetShareForXmenCI":false,"principleMaxFamilyPlan":false,"ebillEnabled":false,"plan":"Celcom XPAX Pantas RM10","parentNumber":"","groupId":"","isLifestyleContract":false,"isLifeStyleEligible":false,"isFreeUnitAvailable":false,"isStarFamilyPlan":false,"isXmenFamilyPlan":false,"isIGWNeptune":false,"isFallBack":false,"isLite":false,"connectionCategory":"Celcom XPAX Pantas RM10","prodPromPartNum":"PB32171","billingType":"Billable","dateOfBirth":"19720514_000000","assetStatus":"Active","isMegaUnlimitedFamilyLine":false,"isXmenUnlimitedFamilyLine":false,"isXmenCOFamilyPlan":false,"isMegaRevampV1Plan":false,"isLiteRevampV1Plan":false,"isCobpEligible":false,"isMaxFamilyPlan":false,"isMaxFamilyCoParent":false,"showInUsageMaxFamily":false,"isHolidaySim":false,"metaFLag":"META_XPAXPANTAS","isMetaEnableFlag":true,"isMaxFamilyParent":false,"isMetaRedirect":{"title":"Best Sellers","fiveGTitle":"Best Sellers","footerTitle":null,"fiveGFooterTitle":null,"footerImage":null,"fiveGImage":null,"products":[{"image":"https://storage.googleapis.com/celcom-life-app-prod-resources/Meta_Personalisation_Icons/Home_Icons/SQ2B240901_MixMatchCard_EN_BestSellerCards_v3_RM39_360x360.png","productId":"2060526","predefinedFlag":false,"productInfo":{"iflixQuota":null,"videoWalla":null,"iddCallsText":null,"iddCallsFlag":null,"youtubeFlag":null,"youtubeVolume":null,"iddCallsVolume":null,"localCallsText":null,"bonus":" , ,","callsVolume":null,"planDescription":"5G 39 (Unlimited)","weWhatFlag":null,"messengerFlag":null,"wewhatVolume":null,"iflixFlag":null,"messengerVolume":null,"localCallsFlag":null,"iflixVolume":null,"weWhatText":null,"hotspotQuota":"3 GB","hotspotSpeed":"","quotaSpeed":"5G/4G","detailsDisplay":null,"country":null,"flagUrl":null,"lateNightHours":null,"eligibility":null,"mvivaProductId":null,"productOriginalPrice":0.0,"productOriginalPriceDisplay":null,"eligiblefor1gb":false,"b40Discount":null,"promoHotspotBundle":null,"upFrontPaymentRequired":null,"additionalPassDetails":null,"termsAndCondition":null,"upsellDependence":null,"extraCTA":null,"upsellHeaderTitle":null,"bonuses":[" "," ",""],"planType":"Best Sellers","appPromoTitle":"","moreDetails":null,"fiveGNotes":null,"rayaCampaignDetails":null,"roamLikeHome":false,"paymentOption":true,"upsellEnabled":false,"miReload":true,"planName":"5G 39 (Unlimited)","planNameDisplay":"5G 39 (Unlimited)","productVolume":"55GB + Unlimited (12Mbps)","product[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /subscriber-contract-mgmt/customer/accounts/0138321592?lang=en
+[REQ]-----START HEADERS-----
+[REQ]x-dynatrace : MT_3_16_424649534_11-0_e9ba6289-2990-4491-bb2c-bc8c2d6c256b_0_4183_57
+[REQ]Accept : application/json
+[REQ]Content-Type : application/json
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]appVersion : 3.0.68
+[REQ]buildNumber : 200828
+[REQ]os : android
+[REQ]screenDensity : 2x
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:57:37 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=CEE504A6190D804E83F573ACE707EBA2; Path=/subscriber-contract-mgmt; HttpOnly
+[RES]Set-Cookie : GCLB=CK3C3be82P_azwEQAw; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:PriceDisplay":"RM 39","productExpiryDate":"Valid for 30 Days","productId":"2060526","promoTitle":"Speed Upgrade","productPrice":39.0,"NightYoutubeQuota":null,"iddCredits":null,"iddCreditFlag":null,"latenightInternetVolume":null,"internet_volume":null,"latenightInternetFlag":null,"iddCreditVolume":null,"latenightInternetBonus":null,"internet_flag":null,"isAutoRenewable":"Yes","businessName":"RM 39 for 5G 39 (Unlimited)","promotype":null,"productDiscountedPrice":0.0,"productDiscountedPriceDisplay":null,"isDataGiftingEligible":false,"specialOffer":{"title":"Special Offers","otherItem":[" "," ",""],"rayaCampaignDetails":null},"internetQuota":null,"isCobpAvailable":false,"notes":{"title":"Notes","notesItem":"This pass is subjected to Fair Usage Policy (FUP). For more information on FUP, click ^[https://help.celcomdigi.com/support/solutions/articles/70000660904-faq-celcomdigi-prepaid-5g-biru-fair-usage-policy].","placeholder":"here"},"fiveGLogoDisplay":false,"internetUpgradeNotes":null},"predefinedInfo":null,"enable":true},{"image":"https://storage.googleapis.com/celcom-life-app-prod-resources/Meta_Personalisation_Icons/Home_Icons/SQ2B240901_MixMatchCard_EN_BestSellerCards_v3_RM49_360x360.png","productId":"2060529","predefinedFlag":false,"productInfo":{"iflixQuota":null,"videoWalla":null,"iddCallsText":null,"iddCallsFlag":null,"youtubeFlag":null,"youtubeVolume":null,"iddCallsVolume":null,"localCallsText":null,"bonus":" , ,","callsVolume":null,"planDescription":"5G 49 (Unlimited)","weWhatFlag":null,"messengerFlag":null,"wewhatVolume":null,"iflixFlag":null,"messengerVolume":null,"localCallsFlag":null,"iflixVolume":null,"weWhatText":null,"hotspotQuota":"6 GB","hotspotSpeed":"","quotaSpeed":"5G/4G","detailsDisplay":null,"country":null,"flagUrl":null,"lateNightHours":null,"eligibility":null,"mvivaProductId":null,"productOriginalPrice":0.0,"productOriginalPriceDisplay":null,"eligiblefor1gb":false,"b40Discount":null,"promoHotspotBundle":null,"upFrontPaymentRequired":null,"additionalPassDetails":null,"termsAndCondition":null,"upsellDependence":null,"extraCTA":null,"upsellHeaderTitle":null,"bonuses":[" "," ",""],"planType":"Monthly","appPromoTitle":"","moreDetails":null,"fiveGNotes":null,"rayaCampaignDetails":null,"roamLikeHome":false,"paymentOption":true,"upsellEnabled":false,"miReload":true,"planName":"5G 49 (Unlimited)","planNameDisplay":"5G 49 (Unlimited)","productVolume":"85GB + Unlimited (12Mbps)","productPriceDisplay":"RM 49","productExpiryDate":"Valid for 30 Days","productId":"2060529","promoTitle":"Speed Upgrade","productPrice":49.0,"NightYoutubeQuota":null,"iddCredits":null,"iddCreditFlag":null,"latenightInternetVolume":null,"internet_volume":null,"latenightInternetFlag":null,"iddCreditVolume":null,"latenightInternetBonus":null,"internet_flag":null,"isAutoRenewable":"Yes","businessName":"RM 49 for 5G 49 (Unlimited)","promotype":null,"productDiscountedPrice":0.0,"productDiscountedPriceDisplay":null,"isDataGiftingEligible":false,"specialOffer":{"title":"Special Offers","otherItem":[" "," ",""],"rayaCampaignDetails":null},"internetQuota":null,"isCobpAvailable":false,"notes":{"title":"Notes","notesItem":"This pass is subjected to Fair Usage Policy (FUP). For more information on FUP, click ^[https://help.celcomdigi.com/support/solutions/articles/70000660904-faq-celcomdigi-prepaid-5g-biru-fair-usage-policy].","placeholder":"here"},"fiveGLogoDisplay":false,"internetUpgradeNotes":null},"predefinedInfo":null,"enable":true},{"image":"https://storage.googleapis.com/celcom-life-app-prod-resources/Meta_Personalisation_Icons/Home_Icons/SQ2B240901_MixMatchCard_EN_BestSellerCards_v3_RM65_360x360.png","productId":"2070032","predefinedFlag":false,"productInfo":{"iflixQuota":null,"videoWalla":null,"iddCallsText":null,"iddCallsFlag":null,"youtubeFlag":null,"youtubeVolume":null,"iddCallsVolume":null,"localCallsText":null,"bonus":",,","callsVolume":null,"planDescription":"5G 65 (500GB Hotspot)","weWhatFlag":null,"messengerFlag":null,"wewhatVolume":null,"iflixFlag":null,"messengerVolume":null,"localCallsFlag":null,"iflixVolume":null,"weWhatText":null,"hotspotQuota":"500GB","hotspotSpeed":"","quotaSpeed":"5G/4G","detailsDisplay":null,"country":null,"flagUrl":null,"lateNightHours":null,"eligibility":null,"mvivaProductId":null,"productOriginalPrice":0.0,"productOriginalPriceDisplay":null,"eligiblefor1gb":false,"b40Discount":null,"promoHotspotBundle":null,"upFrontPaymentRequired":null,"additionalPassDetails":null,"termsAndCondition":null,"upsellDependence":null,"extraCTA":null,"upsellHeaderTitle":null,"bonuses":["","",""],"planType":"Best Sellers","appPromoTitle":"","moreDetails":null,"fiveGNotes":null,"rayaCampaignDetails":null,"roamLikeHome":false,"paymentOption":true,"upsellEnabled":false,"miReload":true,"planName":"5G 65 (500GB Hotspot)","planNameDisplay":"5G 65 (500GB Hotspot)","productVolume":"5GB","productPriceDisplay":"RM 65","productExpiryDate":"Valid for 28 Days","productId":"2070032","promoTitle":"NEW","productPrice":65.0,"NightYoutubeQuota":null,"iddCredits":null,"iddCreditFlag":null,"latenightInternetVolume":null,"internet_volume":null,"latenightInternetFlag":null,"iddCreditVolume":null,"latenightInternetBonus":null,"internet_flag":null,"isAutoRenewable":"No","businessName":"RM 65 for 5G 65 (500GB Hotspot)","promotype":null,"productDiscountedPrice":0.0,"productDiscountedPriceDisplay":null,"isDataGiftingEligible":false,"specialOffer":{"title":"Special Offers","otherItem":["","",""],"rayaCampaignDetails":null},"internetQuota":null,"isCobpAvailable":false,"notes":{"title":"Notes","notesItem":"This pass is subjected to Fair Usage Policy (FUP). For more information on FUP, click ^[https://help.celcomdigi.com/support/solutions/articles/70000655201-celcom-xpax-internet-pass].","placeholder":"here"},"fiveGLogoDisplay":false,"internetUpgradeNotes":null},"predefinedInfo":null,"enable":true},{"image":"https://storage.googleapis.com/celcom-life-app-prod-resources/Meta_Personalisation_Icons/Home_Icons/home_mix_and_match_OLD.png","productId":null,"predefinedFlag":false,"productInfo":null,"predefinedInfo":null,"enable":true}]},"isBlueLemon":false,"isDynamite":false}]}[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /app-manager/allservice/get/shortcuts?msisdn=0138321592&lang=en
+[REQ]-----START HEADERS-----
+[REQ]x-dynatrace : MT_3_16_424649534_11-0_e9ba6289-2990-4491-bb2c-bc8c2d6c256b_0_4174_49
+[REQ]Accept : application/json
+[REQ]Content-Type : application/json
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]encryptedMsisdn : 95c935c4aad353e15174fb2721411d9e
+[REQ]appVersion : 3.0.68
+[REQ]buildNumber : 200828
+[REQ]os : android
+[REQ]screenDensity : 2x
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:57:38 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=xF4RHtiXH7mvDEZPFwlzA6-ot452vDcVfy-HiCVL; path=/app-manager
+[RES]Set-Cookie : GCLB=CLS-oKSv8anmJBAD; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:{"statusCode":0,"statusDesc":"Success","messageId":null,"message":null,"userShortcutsList":[{"insertTs":null,"modifiedTs":null,"modifiedBy":null,"createdBy":null,"id":28,"allServiceLink":{"insertTs":null,"modifiedTs":null,"modifiedBy":null,"createdBy":null,"id":28,"linkName":"Plan Details","deepLink":"PlanDetails","segment":"PREPAID,HOME,CO","order":"5","multiLinkNameMap":{"bm":"Butiran Pelan","en":"Plan Details","id":"Detail Paket"},"iconUrl":"https://storage.googleapis.com/celcom-life-app-dev-resources/icon/PlanContract%203x.png","deepLinkCategory":"LINK_ONLY","paramObject":null,"enabled":true},"shortcutOrder":0,"msisdn":"0138321592"},{"insertTs":null,"modifiedTs":null,"modifiedBy":null,"createdBy":null,"id":29,"allServiceLink":{"insertTs":null,"modifiedTs":null,"modifiedBy":null,"createdBy":"Thamo","id":29,"linkName":"Transaction History","deepLink":"PaymentHistory","segment":"PREPAID,POSTPAID,PARENT,CHILD,XPAX_LITE,XPAX_60,XPAX_80,CO,HOME","order":"2","multiLinkNameMap":{"bm":"Rekod Transaksi","en":"Transaction History","id":"Riwayat Transaksi"},"iconUrl":"https://storage.googleapis.com/celcom-life-app-dev-resources/icon/TransactionHistory3x.png","deepLinkCategory":"WITH_PARAM","paramObject":{"selectedConnection":{"mobileNumber":"0138321592","assetBillingAccountNo":"A200083317","prePosIndicator":"Prepaid","primary":true,"theme":"Prepaid","subscribertype":"Prepaid","name":null,"segmentCode":"10","billCycle":"01","neptunePlan":false,"prodPromPartNum":"PB32171","customerIDType":"New NRIC","segment":"prepaid","metaFLag":null,"customerID":"720514125755","connectionCategory":"Celcom XPAX Pantas RM10","assetStatus":"Active","billingType":"Billable","dateOfBirth":"19720514_000000","ebillEnabled":false,"eligibleInternetShareForXmenCI":false,"principleMaxFamilyPlan":false,"showInUsageMaxFamily":false,"starPlan":false,"xmenPlan":false,"lite":false,"maxFamilyCoParent":false,"megaRevampV1Plan":false,"xmenUnlimitedFamilyLine":false,"megaUnlimitedFamilyLine":false,"metaEnableFlag":false,"xmenCOFamilyPlan":false,"fallBack":false,"partial":false,"holidaySim":false,"liteRevampV1Plan":false,"plan":"Celcom XPAX Pantas RM10","parentNumber":"","groupId":"","isLifestyleContract":false,"isLifeStyleEligible":false,"isFreeUnitAvailable":false,"isStarFamilyPlan":false,"isXmenFamilyPlan":false,"isCobpEligible":false,"isMaxFamilyPlan":false,"isIGWNeptune":false}},"enabled":true},"shortcutOrder":1,"msisdn":"0138321592"},{"insertTs":null,"modifiedTs":null,"modifiedBy":null,"createdBy":null,"id":30,"allServiceLink":{"insertTs":null,"modifiedTs":null,"modifiedBy":null,"createdBy":"Thamo","id":30,"linkName":"Buy Passes","deepLink":"TabAddOn","segment":"PREPAID,POSTPAID,XPAX_LITE,XPAX_60,XPAX_80,CO,FAMILY","order":"3","multiLinkNameMap":{"bm":"Beli Add-On","en":"Buy Add-Ons","id":"Beli Add-On"},"iconUrl":"https://storage.googleapis.com/celcom-life-app-dev-resources/icon/AddonsPasses3x.png","deepLinkCategory":"LINK_ONLY","paramObject":null,"enabled":true},"shortcutOrder":2,"msisdn":"0138321592"}],"isDefault":true}[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES(has body)@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: POST
+[REQ]Path: /deals-mgmt/in-app-partner?lang=en
+[REQ]-----START HEADERS-----
+[REQ]x-dynatrace : MT_3_16_424649534_11-0_e9ba6289-2990-4491-bb2c-bc8c2d6c256b_0_4179_53
+[REQ]Accept : application/json
+[REQ]msisdn : 0138321592
+[REQ]Content-Type : application/json
+[REQ]connectionType : Prepaid
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]appVersion : 3.0.68
+[REQ]buildNumber : 200828
+[REQ]os : android
+[REQ]screenDensity : 2x
+[REQ]Accept-Charset : UTF-8
+[REQ]Content-length : 87
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]++++++START BODY++++++
+[REQ]BODY:
+{"appVersion":"3.0.68","buildNumber":"200828","os":"android","uuid":"9944570ea8bae18a"}[REQ]
++++++++END BODY++++++
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:57:38 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=0526C2A43FA46535B16A9F019096CB97; Path=/deals-mgmt; HttpOnly
+[RES]Set-Cookie : GCLB=CIe3kezYj6v-0gEQAw; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:{"statusCode":0,"messageId":null,"message":null,"statusDesc":"Success","title":null,"bannerList":[{"id":"Google Play Store","imageUrl":"https://storage.googleapis.com/celcom-life-app-prod-resources/MobileContentBanners/250724_CLA_1050x450_PlayStore.jpg","name":"Google Play Store","description":"Google Play Store","status":"Active","target":{"url":"https://admincl3.celcom.com.my/api/deals-mgmt/in-app-partner/details?lang=en","categoryId":"Campaigns","partnerId":"Google Play Store"},"externalBrowser":false,"eligibleOS":"android"}],"categoryList":[{"id":"REWARDS","categoryType":"REWARDS","categoryIconLink":"https://storage.googleapis.com/celcom-life-app-public-image-bucket-prod/partners/icons/loyalty_rewards_prepaid.png","categoryIconLinkBl":null,"connectionFlag":"EXTERNALAPP","connectionType":"prepaid","dateTime":"1735706246234","categoryName":"Rewards","navigationUrl":null,"eligibleOS":null,"partners":[],"active":true}]}[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /mbeacon/6c47242f-86bf-482a-a807-2379826ca8fc?type=m&srvid=16&app=e9ba6289-2990-4491-bb2c-bc8c2d6c256b&va=8.255.1.1005&tt=maandroid&pt=0&resp=json&cts=0&ns=1&si=424649534_11
+[REQ]-----START HEADERS-----
+[REQ]Connection : close
+[REQ]Accept-Encoding : identity, gzip
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : jyc292.dynatrace-managed.com:9999
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Connection : close
+[RES]Date : Wed, 01 Jan 2025 05:57:52 GMT
+[RES]Content-Type : text/plain;charset=utf-8
+[RES]Cache-Control : no-cache
+[RES]Strict-Transport-Security : max-age=31536000
+[RES]Content-Length : 74
+[RES]RESPONSE BODY:{"dynamicConfig": {"serverId":-1, "switchServer":false, "status":"ERROR"}}[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /mbeacon/6c47242f-86bf-482a-a807-2379826ca8fc?type=m&srvid=16&app=e9ba6289-2990-4491-bb2c-bc8c2d6c256b&va=8.255.1.1005&tt=maandroid&pt=0&resp=json&cts=0&ns=1&si=424649534_11
+[REQ]-----START HEADERS-----
+[REQ]Connection : close
+[REQ]Accept-Encoding : identity, gzip
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : jyc292.dynatrace-managed.com:9999
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Connection : close
+[RES]Date : Wed, 01 Jan 2025 05:58:07 GMT
+[RES]Content-Type : text/plain;charset=utf-8
+[RES]Cache-Control : no-cache
+[RES]Strict-Transport-Security : max-age=31536000
+[RES]Content-Length : 74
+[RES]RESPONSE BODY:{"dynamicConfig": {"serverId":-1, "switchServer":false, "status":"ERROR"}}[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /app-manager/version/v2?lang=en
+[REQ]-----START HEADERS-----
+[REQ]Accept : application/json
+[REQ]msisdn : 0138321592
+[REQ]Content-Type : application/json
+[REQ]segment : prepaid
+[REQ]appVersion : 3.0.68
+[REQ]buildNumber : 200828
+[REQ]os : android
+[REQ]screenDensity : 2x
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:58:18 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Cache-Control : max-age=300
+[RES]Set-Cookie : JSESSIONID=BAV0UNMVKdbqIPh84Sn5b1dFz2SpgGpfe_3h6g5Y; path=/app-manager
+[RES]Set-Cookie : GCLB=CJnzsM_vm_LE5AEQAw; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:{"maintenanceRecord":null,"appUpdate":{"update":false,"forceUpdate":false,"storeUrl":"https://play.google.com/store/apps/details?id=com.celcom.mycelcom&hl=en","title":"New version of Celcom Life is here!","changeLogs":[],"image":"image_url","message":"We’ve got more app improvements for you. Update now to enjoy!","imageUrl":{"postpaid":"https://storage.googleapis.com/celcom-life-app-public-image-bucket-dev/force_update_theme_images/postpaid/maintainance@2x.png","prepaid":"https://storage.googleapis.com/celcom-life-app-public-image-bucket-dev/force_update_theme_images/prepaid/maintainance@2x.png"}},"statusCode":0,"statusDesc":"Success","errorMessage":"We’ve got more app improvements for you. Update now to enjoy!","firebaseErrorCode":{"auth":["auth/invalid-app-credential","auth/app-deleted","auth/expired-action-code","auth/invalid-action-code","auth/user-disabled","auth/user-not-found","auth/weak-password","auth/email-already-in-use","auth/invalid-email","auth/operation-not-allowed","auth/account-exists-with-different-credential","auth/auth-domain-config-required","auth/credential-already-in-use","auth/operation-not-supported-in-this-environment","auth/timeout","auth/missing-android-pkg-name","auth/missing-continue-uri","auth/missing-ios-bundle-id","auth/invalid-continue-uri","auth/unauthorized-continue-uri","auth/invalid-dynamic-link-domain","auth/argument-error","auth/invalid-persistence-type","auth/unsupported-persistence-type","auth/invalid-credential","auth/wrong-password","auth/invalid-verification-code","auth/invalid-verification-id","auth/custom-token-mismatch","auth/invalid-custom-token","auth/captcha-check-failed","auth/invalid-phone-number","auth/missing-phone-number","auth/quota-exceeded","auth/cancelled-popup-request","auth/popup-blocked","auth/popup-closed-by-user","auth/unauthorized-domain","auth/invalid-user-token","auth/user-token-expired","auth/null-user","auth/app-not-authorized","auth/invalid-api-key","auth/network-request-failed","auth/requires-recent-login","auth/too-many-requests","auth/web-storage-unsupported","auth/invalid-claims","auth/claims-too-large","auth/id-token-expired","auth/id-token-revoked","auth/invalid-argument","auth/invalid-creation-time","auth/invalid-disabled-field","auth/invalid-display-name","auth/invalid-email-verified","auth/invalid-hash-algorithm","auth/invalid-hash-block-size","auth/invalid-hash-derived-key-length","auth/invalid-hash-key","auth/invalid-hash-memory-cost","auth/invalid-hash-parallelization","auth/invalid-hash-rounds","auth/invalid-hash-salt-separator","auth/invalid-id-token","auth/invalid-last-sign-in-time","auth/invalid-page-token","auth/invalid-password","auth/invalid-password-hash","auth/invalid-password-salt","auth/invalid-photo-url","auth/invalid-provider-id","auth/invalid-session-cookie-duration","auth/invalid-uid","auth/invalid-user-imp[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /app-manager/version/v2?lang=en
+[REQ]-----START HEADERS-----
+[REQ]Accept : application/json
+[REQ]msisdn : 0138321592
+[REQ]Content-Type : application/json
+[REQ]segment : prepaid
+[REQ]appVersion : 3.0.68
+[REQ]buildNumber : 200828
+[REQ]os : android
+[REQ]screenDensity : 2x
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:58:18 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Cache-Control : max-age=300
+[RES]Set-Cookie : JSESSIONID=BAV0UNMVKdbqIPh84Sn5b1dFz2SpgGpfe_3h6g5Y; path=/app-manager
+[RES]Set-Cookie : GCLB=CJnzsM_vm_LE5AEQAw; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:ort","auth/invalid-provider-data","auth/maximum-user-count-exceeded","auth/missing-hash-algorithm","auth/missing-uid","auth/reserved-claims","auth/session-cookie-revoked","auth/uid-alread-exists","auth/email-already-exists","auth/phone-number-already-exists","auth/project-not-found","auth/insufficient-permission","auth/internal-error"]},"homeServiceWaitTimeInSeconds":"30000","restartPopupEnabled":true}[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /deals-mgmt/mydeals/deals-summary?lang=en
+[REQ]-----START HEADERS-----
+[REQ]Accept : application/json
+[REQ]msisdn : 0138321592
+[REQ]Content-Type : application/json
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]accountType : Prepaid
+[REQ]buildNumber : 200828
+[REQ]appVersion : 3.0.68
+[REQ]os : android
+[REQ]screenDensity : 2x
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:58:20 GMT
+[RES]Content-Type : application/json
+[RES]Content-Length : 88
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Via : 1.1 google
+[RES]Set-Cookie : GCLB=CM6di4GCvO_R_QEQAw; path=/; HttpOnly
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]RESPONSE BODY:{"statusCode":-99,"statusDesc":"Looks like our system is busy. Please try again later."}[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /home-view/home-data/deals?isInitialRequest=true&lang=en
+[REQ]-----START HEADERS-----
+[REQ]Accept : application/json
+[REQ]deviceModel : CPH2387
+[REQ]adId : e12d7a5f-adf8-4f4b-8964-e8fa51e1a8c3
+[REQ]Content-Type : application/json
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]screenDensity : 2x
+[REQ]networkType : cellular
+[REQ]segment : prepaid
+[REQ]deviceVersion : 14
+[REQ]msisdn : 0138321592
+[REQ]networkSpeed : 81
+[REQ]appVersion : 3.0.68
+[REQ]deviceId : 9944570ea8bae18a
+[REQ]os : android
+[REQ]buildNumber : 200828
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:58:21 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=6nLAIOEznbHJ2Qh3UroSpd4f_jkliaSTArdEQ1y1; path=/home-view
+[RES]Set-Cookie : GCLB=CJnTkdDKgNbinQEQAw; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:{"statusCode":0,"statusDesc":null,"mydeals":[{"priority":40,"isDefault":"no","campaign":"One Pass, Roam 76 Countries","timestamp":"","offer":"One Pass, Roam 76 Countries","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdroamingdecdialuppre","campaignStartDate":"NA","campaignEndDate":"31/12/2024 23:59:59","channelName":"App","reference1":"Get It Now!","reference2":"","reference3":"","reference4":"","marketingTagline":"One Pass, Roam 76 Countries","productPrice":"","offerName":"5G Roaming","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/SQ2B241103_CLA_Deals%20B[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /home-view/home-data/deals?isInitialRequest=true&lang=en
+[REQ]-----START HEADERS-----
+[REQ]Accept : application/json
+[REQ]deviceModel : CPH2387
+[REQ]adId : e12d7a5f-adf8-4f4b-8964-e8fa51e1a8c3
+[REQ]Content-Type : application/json
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]screenDensity : 2x
+[REQ]networkType : cellular
+[REQ]segment : prepaid
+[REQ]deviceVersion : 14
+[REQ]msisdn : 0138321592
+[REQ]networkSpeed : 81
+[REQ]appVersion : 3.0.68
+[REQ]deviceId : 9944570ea8bae18a
+[REQ]os : android
+[REQ]buildNumber : 200828
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:58:21 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=6nLAIOEznbHJ2Qh3UroSpd4f_jkliaSTArdEQ1y1; path=/home-view
+[RES]Set-Cookie : GCLB=CJnTkdDKgNbinQEQAw; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:anner_EN_1050x450.jpg","deepLink":"","offerLocation":"","merchantName":"","cta1":"DEEP_LINK","cta2":"sbrp","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"More From CelcomDigi","keywords":"roaming, pass, internet, addon, travel, 5G","termsAndConditions_array":null,"fandq_array":null},{"priority":39,"isDefault":"no","campaign":"Your Go-To for Apple Essentials!","timestamp":"","offer":"Your Go-To for Apple Essentials!","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdapple","campaignStartDate":"NA","campaignEndDate":"28/02/2025 23:59:59","channelName":"App","reference1":"Get It Now!","reference2":"","reference3":"","reference4":"","marketingTagline":"Your Go-To for Apple Essentials!","productPrice":"","offerName":"Meriahkan 2025G","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/CelcomDigi_AppleCollective_App_CLA%20Deals%20Banner_1050x450px.jpg","deepLink":"https://www.celcomdigi.com/promotions/meriahkan-2025g-apple?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:DPO%7CC:sq2_meriahkan2025g_apple_collective_cla_banner%7CG:AWA%7C&utm_content=AppCLA_20241217_DevicePostpaid_AppAll_sq2_meriahkan2025g_apple_collective_cla_banner_no_variation","offerLocation":"","merchantName":"","cta1":"REWARDS","cta2":"https://www.celcomdigi.com/promotions/meriahkan-2025g-apple?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:DPO%7CC:sq2_meriahkan2025g_apple_collective_cla_banner%7CG:AWA%7C&utm_content=AppCLA_20241217_DevicePostpaid_AppAll_sq2_meriahkan2025g_apple_collective_cla_banner_no_variation","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"Meriahkan 2025G\uD83C\uDF86","keywords":"apple, iphone, watch, device, ipad","termsAndConditions_array":null,"fandq_array":null},{"priority":38,"isDefault":"no","campaign":"Flagship Power, New Price Tag!","timestamp":"","offer":"Flagship Power, New Price Tag!","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdiphone15","campaignStartDate":"NA","campaignEndDate":"28/02/2025 23:59:59","channelName":"App","reference1":"Get It Now!","reference2":"","reference3":"","reference4":"","marketingTagline":"Flagship Power, New Price Tag!","productPrice":"","offerName":"Meriahkan 2025G","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/CelcomDigi_CLA_DealsBanner_EN_1050X450_iPhone15Pro.jpg","deepLink":"https://shop.celcomdigi.com/home?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:DPO%7CC:sq2_meriahkan2025g_apple_iphone_15_pro_reprice_cla_banner%7CG:AWA%7C&utm_content=AppCLA_20241217_DevicePostpaid_AppAll_sq2_meriahkan2025g_apple_iphone_15_pro_reprice_cla_banner_no_variation","offerLocation":"","merchantName":"","cta1":"REWARDS","cta2":"https://shop.celcomdigi.com/home?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:DPO%7CC:sq2_meriahkan2025g_apple_iphone_15_pro_reprice_cla_banner%7CG:AWA%7C&utm_content=AppCLA_20241217_DevicePostpaid_AppAll_sq2_meriahkan2025g_apple_iphone_15_pro_reprice_cla_banner_no_variation","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"Meriahkan 2025G\uD83C\uDF86","keywords":"apple, iphone, watch, device, ipad","termsAndConditions_array":null,"fandq_array":null},{"priority":37,"isDefault":"no","campaign":"Enjoy Every Treat, On Us!","timestamp":"","offer":"Enjoy Every Treat, On Us!","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdyesrewardspre","campaignStartDate":"NA","campaignEndDate":"28/02/2025 23:59:59","channelName":"App","reference1":"Find Out More","reference2":"","reference3":"","reference4":"","marketingTagline":"Enjoy Every Treat, On Us!","productPrice":"","offerName":"Rewards","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/SQ3A241101_DealsBanner_EN_1050x450_.jpg","deepLink":"","offerLocation":"","merchantName":"","cta1":"DEEP_LINK","cta2":"lifestyleDeals","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"Meriahkan 2025G\uD83C\uDF86","keywords":"promo, year end sale, rebate","termsAndConditions_array":null,"fandq_array":null},{"priority":36,"isDefault":"no","campaign":"⚡Grab your FREE PC Game Pass⚡","timestamp":"","offer":"⚡Grab your FREE PC Game Pass⚡","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdyesfibrepcgppre","campaignStartDate":"NA","campaignEndDate":"28/02/2025 23:59:59","channelName":"App","reference1":"Get It Now!","reference2":"","reference3":"","reference4":"","marketingTagline":"⚡Grab your FREE PC Game Pass⚡","productPrice":"","offerName":"CelcomDigiFibre","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/CDF241103_CLA_PromotionBanner_1050x450_PCGamePass.jpg","deepLink":"https://fibre.celcomdigi.com/fibre-for-you/gamers?utm_source=clapp&utm_medium=banner&utm_campaign=%7CP:FIB%7CC:CDF_Meriahkan2025G_PCGamePass%7CG:AWA%7C&utm_content=BannerCLA_20241205_Fibre_AppAll_CDF_Meriahkan2025G_PCGamePass_no_variation","offerLocation":"","merchantName":"","cta1":"REWARDS","cta2":"https://fibre.celcomdigi.com/fibre-for-you/gamers?utm_source=clapp&utm_medium=banner&utm_campaign=%7CP:FIB%7CC:CDF_Meriahkan2025G_PCGamePass%7CG:AWA%7C&utm_content=BannerCLA_20241205_Fibre_AppAll_CDF_Meriahkan2025G_PCGamePass_no_variation","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"Meriahkan 2025G\uD83C\uDF86","keywords":"rewards, sale, year end, promo","termsAndConditions_array":null,"fandq_array":null},{"priority":35,"isDefault":"no","campaign":"Save Big on Smart Home Devices","timestamp":"","offer":"Save Big on Smart Home Devices","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdyesfibreaqarapre","campaignStartDate":"NA","campaignEndDate":"28/02/2025 23:59:59","channelName":"App","reference1":"Get It Now!","reference2":"","reference3":"","reference4":"","marketingTagline":"Save Big on Smart Home Devices","productPrice":"","offerName":"CelcomDigiFibre","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/CDF241103_CLA_PromotionBanner_1050x450_AqaraProducts.jpg","deepLink":"\"https://fibre.celcomdigi.com/campaign/celcomdigi-fibre?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:FIB%7CC:2025GAqaraCelcomDigiFibre%7CG:CNV%7C&utm_content=AppCLA_20241203_Fibre_AppAll_2025GAqaraCelcomDigiFibre_no_variation \"","offerLocation":"","merchantName":"","cta1":"REWARDS","cta2":"\"https://fibre.celcomdigi.com/campaign/celcomdigi-fibre?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:FIB%7CC:2025GAqaraCelcomDigiFibre%7CG:CNV%7C&utm_content=AppCLA_20241203_Fibre_AppAll_2025GAqaraCelcomDigiFibre_no_variation \"","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"Meriahkan 2025G\uD83C\uDF86","keywords":"rewards, sale, year end, promo","termsAndConditions_array":null,"fandq_array":null},{"priority":33,"isDefault":"no","campaign":"New Year, New Upgrades","timestamp":"","offer":"New Year, New Upgrades","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdyescollective","campaignStartDate":"NA","campaignEndDate":"28/02/2025 23:59:59","channelName":"App","reference1":"Find Out More","reference2":"","reference3":"","reference4":"","marketingTagline":"New Year, New Upgrades","productPrice":"","offerName":"Meriahkan 2025G","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/CDF240902_CLA_Deals%20Banner_EN_1050x450.jpg","deepLink":"https://www.celcomdigi.com/promotions/boost-bank-offer?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:BST%7CC:tbc_boost_bank_offer_cla%7CG:AWA%7C&utm_content=AppCLA_20240807_Boost_AppAll_tbc_boost_bank_offer_cla_no_variation","offerLocation":"","merchantName":"","cta1":"REWARDS","cta2":"https://www.celcomdigi.com/promotions/boost-bank-offer?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:BST%7CC:tbc_boost_bank_offer_cla%7CG:AWA%7C&utm_content=AppCLA_20240807_Boost_AppAll_tbc_boost_bank_offer_cla_no_variation","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"Meriahkan 2025G\uD83C\uDF86","keywords":"promo, year end sale, rebate","termsAndConditions_array":null,"fandq_array":null},{"priority":32,"isDefault":"no","campaign":"Double The Quota Up To 500GB","timestamp":"","offer":"Double The Quota Up To 500GB","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdyes2xquota","campaignStartDate":"NA","campaignEndDate":"31/12/2024 23:59:59","channelName":"App","reference1":"Find Out More","reference2":"","reference3":"","reference4":"","marketingTagline":"Double The Quota Up To 500GB","productPrice":"","offerName":"Meriahkan 2025G","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/CDF240902_CLA_Deals%20Banner_EN_1050x450_V2.jpg","deepLink":"https://www.celcomdigi.com/promotions/postpaid?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:POS%7CC:sq2_meriahkan2025g%7CG:AWA%7C&utm_content=AppCLA_20241205_Postpaid_AppAll_sq2_meriahkan2025g_no_variation","offerLocation":"","merchantName":"","cta1":"REWARDS","cta2":"https://www.celcomdigi.com/promotions/postpaid?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:POS%7CC:sq2_meriahkan2025g%7CG:AWA%7C&utm_content=AppCLA_20241205_Postpaid_AppAll_sq2_meriahkan2025g_no_variation","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"Meriahkan 2025G\uD83C\uDF86","keywords":"promo, year end sale, rebate","termsAndConditions_array":null,"fandq_array":null},{"priority":31,"isDefault":"no","campaign":"RM20 Monthly Rebate For 6 Months","timestamp":"","offer":"RM20 Monthly Rebate For 6 Months","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdyesmonthly","campaignStartDate":"NA","campaignEndDate":"28/02/2025 23:59:59","channelName":"App","reference1":"Find Out More","reference2":"","reference3":"","reference4":"","marketingTagline":"RM20 Monthly Rebate For 6 Months","productPrice":"","offerName":"Meriahkan 2025G","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/CDF240902_CLA_Deals%20Banner_EN_1050x450_V1.jpg","deepLink":"https://www.celcomdigi.com/promotions/meriahkan-2025g-port-in[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /home-view/home-data/deals?isInitialRequest=true&lang=en
+[REQ]-----START HEADERS-----
+[REQ]Accept : application/json
+[REQ]deviceModel : CPH2387
+[REQ]adId : e12d7a5f-adf8-4f4b-8964-e8fa51e1a8c3
+[REQ]Content-Type : application/json
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]screenDensity : 2x
+[REQ]networkType : cellular
+[REQ]segment : prepaid
+[REQ]deviceVersion : 14
+[REQ]msisdn : 0138321592
+[REQ]networkSpeed : 81
+[REQ]appVersion : 3.0.68
+[REQ]deviceId : 9944570ea8bae18a
+[REQ]os : android
+[REQ]buildNumber : 200828
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:58:21 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=6nLAIOEznbHJ2Qh3UroSpd4f_jkliaSTArdEQ1y1; path=/home-view
+[RES]Set-Cookie : GCLB=CJnTkdDKgNbinQEQAw; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:-offer?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:POS%7CC:sq2_meriahkan2025g%7CG:AWA%7C&utm_content=AppCLA_20241205_Postpaid_AppAll_sq2_meriahkan2025g_no_variation","offerLocation":"","merchantName":"","cta1":"REWARDS","cta2":"https://www.celcomdigi.com/promotions/meriahkan-2025g-port-in-offer?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:POS%7CC:sq2_meriahkan2025g%7CG:AWA%7C&utm_content=AppCLA_20241205_Postpaid_AppAll_sq2_meriahkan2025g_no_variation","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"Meriahkan 2025G\uD83C\uDF86","keywords":"promo, year end sale, rebate","termsAndConditions_array":null,"fandq_array":null},{"priority":30,"isDefault":"no","campaign":"Unlimited 5G and Possibilities","timestamp":"","offer":"Unlimited 5G and Possibilities","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdyesul5gpre","campaignStartDate":"NA","campaignEndDate":"28/02/2025 23:59:59","channelName":"App","reference1":"Find Out More","reference2":"","reference3":"","reference4":"","marketingTagline":"Unlimited 5G and Possibilities","productPrice":"","offerName":"Meriahkan 2025G","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/SQ2A241102_App_DealsBanner_1050x450_Celcom_Bonus10GB%265XHotspot_EN.png","deepLink":"https://www.celcomdigi.com/promotions/prepaid-unlimited-5g?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:PRE%7CC:sq2_meriahkan2025g%7CG:AWA%7C&utm_content=AppCLA_20241205_Prepaid_AppAll_sq2_meriahkan2025g_no_variation","offerLocation":"","merchantName":"","cta1":"REWARDS","cta2":"https://www.celcomdigi.com/promotions/prepaid-unlimited-5g?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:PRE%7CC:sq2_meriahkan2025g%7CG:AWA%7C&utm_content=AppCLA_20241205_Prepaid_AppAll_sq2_meriahkan2025g_no_variation","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"Meriahkan 2025G\uD83C\uDF86","keywords":"promo, year end sale, rebate","termsAndConditions_array":null,"fandq_array":null},{"priority":29,"isDefault":"no","campaign":"Browse Faster, Stream Smoother","timestamp":"","offer":"Browse Faster, Stream Smoother","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdyesprehs5g","campaignStartDate":"NA","campaignEndDate":"28/02/2025 23:59:59","channelName":"App","reference1":"Find Out More","reference2":"","reference3":"","reference4":"","marketingTagline":"Browse Faster, Stream Smoother","productPrice":"","offerName":"Meriahkan 2025G","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/SQ2A241102_App_DealsBanner_1050x450_Celcom_Bonus10GB%265XHotspot_EK_EN.png","deepLink":"https://www.celcomdigi.com/promotions/prepaid-high-speed-5g?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:PRE%7CC:sq2_meriahkan2025g%7CG:AWA%7C&utm_content=AppCLA_20241205_Prepaid_AppAll_sq2_meriahkan2025g_no_variation","offerLocation":"","merchantName":"","cta1":"REWARDS","cta2":"https://www.celcomdigi.com/promotions/prepaid-high-speed-5g?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:PRE%7CC:sq2_meriahkan2025g%7CG:AWA%7C&utm_content=AppCLA_20241205_Prepaid_AppAll_sq2_meriahkan2025g_no_variation","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"Meriahkan 2025G\uD83C\uDF86","keywords":"promo, year end sale, rebate","termsAndConditions_array":null,"fandq_array":null},{"priority":28,"isDefault":"no","campaign":"Upgrade to The Latest 5G Phone","timestamp":"","offer":"Upgrade to The Latest 5G Phone","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdyesdevicespre","campaignStartDate":"NA","campaignEndDate":"28/02/2025 23:59:59","channelName":"App","reference1":"Find Out More","reference2":"","reference3":"","reference4":"","marketingTagline":"Upgrade to The Latest 5G Phone","productPrice":"","offerName":"Meriahkan 2025G","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/CDF240902_CLA_Deals%20Banner_EN_1050x450_V2%20(1).jpg","deepLink":"https://www.celcomdigi.com/promotions/devices-easy360?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:DPO%7CC:sq2_meriahkan2025g%7CG:AWA%7C&utm_content=AppCLA_20241205_DevicePostpaid_AppAll_sq2_meriahkan2025g_no_variation","offerLocation":"","merchantName":"","cta1":"REWARDS","ct[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /home-view/home-data/deals?isInitialRequest=true&lang=en
+[REQ]-----START HEADERS-----
+[REQ]Accept : application/json
+[REQ]deviceModel : CPH2387
+[REQ]adId : e12d7a5f-adf8-4f4b-8964-e8fa51e1a8c3
+[REQ]Content-Type : application/json
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]screenDensity : 2x
+[REQ]networkType : cellular
+[REQ]segment : prepaid
+[REQ]deviceVersion : 14
+[REQ]msisdn : 0138321592
+[REQ]networkSpeed : 81
+[REQ]appVersion : 3.0.68
+[REQ]deviceId : 9944570ea8bae18a
+[REQ]os : android
+[REQ]buildNumber : 200828
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:58:21 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=6nLAIOEznbHJ2Qh3UroSpd4f_jkliaSTArdEQ1y1; path=/home-view
+[RES]Set-Cookie : GCLB=CJnTkdDKgNbinQEQAw; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:a2":"https://www.celcomdigi.com/promotions/devices-easy360?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:DPO%7CC:sq2_meriahkan2025g%7CG:AWA%7C&utm_content=AppCLA_20241205_DevicePostpaid_AppAll_sq2_meriahkan2025g_no_variation","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"Meriahkan 2025G\uD83C\uDF86","keywords":"promo, year end sale, rebate","termsAndConditions_array":null,"fandq_array":null},{"priority":27,"isDefault":"no","campaign":"RM360 Off The Latest 5G Phones","timestamp":"","offer":"RM360 Off The Latest 5G Phones","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdyesdevices360","campaignStartDate":"NA","campaignEndDate":"28/02/2025 23:59:59","channelName":"App","reference1":"Find Out More","reference2":"","reference3":"","reference4":"","marketingTagline":"RM360 Off The Latest 5G Phones","productPrice":"","offerName":"Meriahkan 2025G","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/CDF240902_CLA_Deals%20Banner_EN_1050x450_V1%20(1).jpg","deepLink":"https://www.celcomdigi.com/promotions/devices-easy360-360?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:DPO%7CC:sq2_meriahkan2025g%7CG:AWA%7C&utm_content=AppCLA_20241205_DevicePostpaid_AppAll_sq2_meriahkan2025g_no_variation","offerLocation":"","merchantName":"","cta1":"REWARDS","cta2":"https://www.celcomdigi.com/promotions/devices-easy360-360?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:DPO%7CC:sq2_meriahkan2025g%7CG:AWA%7C&utm_content=AppCLA_20241205_DevicePostpaid_AppAll_sq2_meriahkan2025g_no_variation","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"Meriahkan 2025G\uD83C\uDF86","keywords":"promo, year end sale, rebate","termsAndConditions_array":null,"fandq_array":null},{"priority":26,"isDefault":"no","campaign":"Mega Savings, Mega Value","timestamp":"","offer":"Mega Savings, Mega Value","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdyesfree5g","campaignStartDate":"NA","campaignEndDate":"28/02/2025 23:59:59","channelName":"App","reference1":"Find Out More","reference2":"","reference3":"","reference4":"","marketingTagline":"Mega Savings, Mega Value","productPrice":"","offerName":"Meriahkan 2025G","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/CDF240902_CLA_Deals%20Banner_EN_1050x450%20(1).jpg","deepLink":"https://www.celcomdigi.com/promotions/devices-pakej-mega-jimat?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:DPO%7CC:sq2_meriahkan2025g%7CG:AWA%7C&utm_content=AppCLA_20241205_DevicePostpaid_AppAll_sq2_meriahkan2025g_no_variation","offerLocation":"","merchantName":"","cta1":"REWARDS","cta2":"https://www.celcomdigi.com/promotions/devices-pakej-mega-jimat?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:DPO%7CC:sq2_meriahkan2025g%7CG:AWA%7C&utm_content=AppCLA_20241205_DevicePostpaid_AppAll_sq2_meriahkan2025g_no_variation","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"Meriahkan 2025G\uD83C\uDF86","keywords":"promo, year end sale, rebate","termsAndConditions_array":null,"fandq_array":null},{"priority":24,"isDefault":"no","campaign":"Stream On Disney+ Hotstar","timestamp":"","offer":"Stream On Disney+ Hotstar","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdyesdevices360","campaignStartDate":"NA","campaignEndDate":"28/02/2025 23:59:59","channelName":"App","reference1":"Subscribe Now","reference2":"","reference3":"","reference4":"","marketingTagline":"Stream On Disney+ Hotstar","productPrice":"","offerName":"Meriahkan 2025G","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/SQ2A241102_App_DealsBanner_1050x450_Celcom_SpeedStream_EN.png","deepLink":"","offerLocation":"","merchantName":"","cta1":"DEEP_LINK","cta2":"sbipip","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"Meriahkan 2025G\uD83C\uDF86","keywords":"promo, year end sale, rebate","termsAndConditions_array":null,"fandq_array":null},{"priority":23,"isDefault":"no","campaign":"High-Speed Video Pass","timestamp":"","offer":"High-Speed Video Pass","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdyesdevices360","campaignStartDate":"NA","campaignEndDate":"28/02/2025 23:59:59","channelName":"App","reference1":"Subscribe Now","reference2":"","reference3":"","reference4":"","marketingTagline":"High-Speed Video Pass","productPrice":"","offerName":"Meriahkan 2025G","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/SQ2A241102_App_DealsBanner_1050x450_Celcom_VideoPass_EN.png","deepLink":"","offerLocation":"","merchantName":"","cta1":"DEEP_LINK","cta2":"sbip","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"Meriahkan 2025G\uD83C\uDF86","keywords":"promo, year end sale, rebate","termsAndConditions_array":null,"fandq_array":null},{"priority":22,"isDefault":"no","campaign":"High-Speed Internet Pass","timestamp":"","offer":"High-Speed Internet Pass","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdyesdevices360","campaignStartDate":"NA","campaignEndDate":"28/02/2025 23:59:59","channelName":"App","reference1":"Subscribe Now","reference2":"","reference3":"","reference4":"","marketingTagline":"High-Speed Internet Pass","productPrice":"","offerName":"Meriahkan 2025G","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/SQ2A241102_App_DealsBanner_1050x450_Celcom_5Gx4GPass_EN.png","deepLink":"","offerLocation":"","merchantName":"","cta1":"DEEP_LINK","cta2":"sbip","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"Meriahkan 2025G\uD83C\uDF86","keywords":"promo, year end sale, rebate","termsAndConditions_array":null,"fandq_array":null},{"priority":21,"isDefault":"no","campaign":"Freebies And PWP As Low As RM1","timestamp":"","offer":"Freebies And PWP As Low As RM1","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdyesinstore","campaignStartDate":"NA","campaignEndDate":"28/02/2025 23:59:59","channelName":"App","reference1":"Find Out More","reference2":"","reference3":"","reference4":"","marketingTagline":"Freebies And PWP As Low As RM1","productPrice":"","offerName":"Meriahkan 2025G","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/CDF240902_CLA_Promotion%20Banner_EN_1050x450.jpg","deepLink":"https://www.celcomdigi.com/promotions/meriahkan-2025g-in-store-freebies?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:ACC%7CC:sq2_meriahkan2025g%7CG:AWA%7C&utm_content=AppCLA_20241205_Accessories_AppAll_sq2_meriahkan2025g_no_variation","offerLocation":"","merchantName":"","cta1":"REWARDS","cta2":"https://www.celcomdigi.com/promotions/meriahkan-2025g-in-store-freebies?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:ACC%7CC:sq2_meriahkan2025g%7CG:AWA%7C&utm_content=AppCLA_20241205_Accessories_AppAll_sq2_meriahkan2025g_no_variation","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"Meriahkan 2025G\uD83C\uDF86","keywords":"promo, year end sale, rebate","termsAndConditions_array":null,"fandq_array":null},{"priority":20,"isDefault":"no","campaign":"The Best All-in-One Plan!","timestamp":"","offer":"The Best All-in-One Plan!","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdoneultra","campaignStartDate":"NA","campaignEndDate":"NA","channelName":"App","reference1":"Find Out More","reference2":"","reference3":"","reference4":"","marketingTagline":"The Best All-in-One Plan!","productPrice":"","offerName":"ONE Ultra","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/SQ1A241101_DealsBanner_EN_1050x450_OneUltra.jpg","deepLink":"https://www.celcomdigi.com/postpaid/one-ultra?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:POS%7CC:sq2_celcomdigi_one_ultra_cla_banner%7CG:AWA%7C&utm_content=AppCLA_20241203_Postpaid_AppAll_sq2_celcomdigi_one_ultra_cla_banner_no_variation","offerLocation":"","merchantName":"","cta1":"REWARDS","cta2":"https://www.celcomdigi.com/postpaid/one-ultra?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:POS%7CC:sq2_celcomdigi_one_ultra_cla_banner%7CG:AWA%7C&utm_content=AppCLA_20241203_Postpaid_AppAll_sq2_celcomdigi_one_ultra_cla_banner_no_variation","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"More From CelcomDigi","keywords":"promo, year end sale, rebate","termsAndConditions_array":null,"fandq_array":null},{"priority":19,"isDefault":"no","campaign":"More Saving, More Benefits ","timestamp":"","offer":"More Saving, More Benefits ","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdonepro","campaignStartDate":"NA","campaignEndDate":"NA","channelName":"App","reference1":"Find Out More","reference2":"","reference3":"","reference4":"","marketingTagline":"More Saving, More Benefits ","productPrice":"","offerName":"ONE Ultra","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/SQ1A241101_DealsBanner_EN_1050x450_OnePro.jpg","deepLink":"https://www.celcomdigi.com/postpaid/one-pro?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:POS%7CC:sq2_celcomdigi_one_pro_cla_banner%7CG:AWA%7C&utm_content=AppCLA_20241203_Postpaid_AppAll_sq2_celcomdigi_one_pro_cla_banner_no_variation","offerLocation":"","merchantName":"","cta1":"REWARDS","cta2":"https://www.celcomdigi.com/postpaid/one-pro?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:POS%7CC:sq2_celcomdigi_one_pro_cla_banner%7CG:AWA%7C&utm_content=AppCLA_20241203_Postpaid_AppAll_sq2_celcomdigi_one_pro_cla_banner_no_variation","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"More From CelcomDigi","keywords":"promo, year end sale, rebate","termsAndConditions_array":null,"fandq_array":null},{"priority":17,"isDefault":"no","campaign":"Lights, Camera, Showtime!","timestamp":"","offer":"Lights, Camera, Showtime!","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdmufasapre","campaignStartDate":"NA","campaignEndDate":"06/01/2025 23:59:59","channelName":"App","reference1":"Find Out More!","reference2":"","reference3":"","reference4":"","marketingTagline":"Lights, Camera, Showtime!","productPrice":"","offerName":"Tickets Giveaway","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/SQ2B241102_CLA_DealBanner_EN_1050x450.jpg","deepLink":"https://celcomdigi.com/promotions/showtime-mufasa-2?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:REW%7CC:sq2_showtime_mufasa_cla_banner%7CG:AWA%7C&utm_content=AppCLA_20241210_Rewards_AppAll_sq2_showtime_mufasa_cla_banner_no_variation","offerLocation":"","merchantName":"","cta1":"REWARDS","cta2":"https://celcomdigi.com/promotions/showtime-mufasa-2?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:REW%7CC:sq2_showtime_mufasa_cla_banner%7CG:AWA%7C&utm_content=AppCLA_20241210_Rewards_AppAll_sq2_showtime_mufasa_cla_banner_no_variation","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"Discover More","keywords":"movie, offer, shows, mufasa","termsAndConditions_array":null,"fandq_array":null},{"priority":16,"isDefault":"no","campaign":"Unleash Gaming Performance","timestamp":"","offer":"Unleash Gaming Performance","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdeasy360pre","campaignStartDate":"NA","campaignEndDate":"NA","channelName":"App","reference1":"Learn More","reference2":"","reference3":"","reference4":"","marketingTagline":"Unleash Gaming Performance","productPrice":"","offerName":"From RM69/Month","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/SQ1C241106_CLA_Deals%20Banner_1050x450.jpg","deepLink":"http://www.celcomdigi.com/promotions/rog-phone-9-pro?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:DPO%7CC:sq2_asus_rog_phone_9_launch_cla_banner%7CG:AWA%7C&utm_content=AppCLA_20241210_DevicePostpaid_AppAll_sq2_asus_rog_phone_9_launch_cla_banner_no_variation","offerLocation":"","merchantName":"","cta1":"REWARDS","cta2":"http://www.celcomdigi.com/promotions/rog-phone-9-pro?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:DPO%7CC:sq2_asus_rog_phone_9_launch_cla_banner%7CG:AWA%7C&utm_content=AppCLA_20241210_DevicePostpaid_AppAll_sq2_asus_rog_phone_9_launch_cla_banner_no_variation","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"Device","keywords":"promo, year end sale, rebate","termsAndConditions_array":null,"fandq_array":null},{"priority":15,"isDefault":"no","campaign":"Enjoy Freebies Worth RM597!","timestamp":"","offer":"Enjoy Freebies Worth RM597!","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdpmjpre","campaignStartDate":"NA","campaignEndDate":"NA","channelName":"App","reference1":"Get Yours Now","reference2":"","reference3":"","reference4":"","marketingTagline":"Enjoy Freebies Worth RM597!","productPrice":"","offerName":"Pakej MegaJimat","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/SQ1B241102%20CLA%20Deals%20Banner%201050x450.jpg","deepLink":"https://www.celcomdigi.com/promotions/honor-x9c?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:DPO%7CC:sq2_honor_x9c_launch_cla_banner%7CG:AWA%7C&utm_content=AppCLA_20241210_DevicePostpaid_AppAll_sq2_honor_x9c_launch_cla_banner_no_variation","offerLocation":"","merchantName":"","cta1":"REWARDS","cta2":"https://www.celcomdigi.com/promotions/honor-x9c?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:DPO%7CC:sq2_honor_x9c_launch_cla_banner%7CG:AWA%7C&utm_content=AppCLA_20241210_DevicePostpaid_AppAll_sq2_honor_x9c_launch_cla_banner_no_variation","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"Device","keywords":"pakej, mega, jimat, android","termsAndConditions_array":null,"fandq_array":null},{"priority":13,"isDefault":"no","campaign":"Refer & Earn RM150 TnG Voucher!","timestamp":"","offer":"Refer & Earn RM150 TnG Voucher!","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdfibrereferral","campaignStartDate":"NA","campaignEndDate":"NA","channelName":"App","reference1":"Start Referring[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /home-view/home-data/deals?isInitialRequest=true&lang=en
+[REQ]-----START HEADERS-----
+[REQ]Accept : application/json
+[REQ]deviceModel : CPH2387
+[REQ]adId : e12d7a5f-adf8-4f4b-8964-e8fa51e1a8c3
+[REQ]Content-Type : application/json
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]screenDensity : 2x
+[REQ]networkType : cellular
+[REQ]segment : prepaid
+[REQ]deviceVersion : 14
+[REQ]msisdn : 0138321592
+[REQ]networkSpeed : 81
+[REQ]appVersion : 3.0.68
+[REQ]deviceId : 9944570ea8bae18a
+[REQ]os : android
+[REQ]buildNumber : 200828
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:58:21 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=6nLAIOEznbHJ2Qh3UroSpd4f_jkliaSTArdEQ1y1; path=/home-view
+[RES]Set-Cookie : GCLB=CJnTkdDKgNbinQEQAw; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:!","reference2":"","reference3":"","reference4":"","marketingTagline":"Refer & Earn RM150 TnG Voucher!","productPrice":"","offerName":"Referral Campaign","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/CDF241003%20CLA%20Promotion%20Banner%20BM%201050x450.jpg","deepLink":"https://referral.celcomdigi.com/en?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:FIB%7CC:homereferral_cla_promotionsbanner%7CG:AWA%7C&utm_content=AppCLA_20241014_Fibre_AppAll_homereferral_cla_promotionsbanner_no_variation","offerLocation":"","merchantName":"","cta1":"REWARDS","cta2":"https://referral.celcomdigi.com/en?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:FIB%7CC:homereferral_cla_promotionsbanner%7CG:AWA%7C&utm_content=AppCLA_20241014_Fibre_AppAll_homereferral_cla_promotionsbanner_no_variation","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /home-view/home-data/deals?isInitialRequest=true&lang=en
+[REQ]-----START HEADERS-----
+[REQ]Accept : application/json
+[REQ]deviceModel : CPH2387
+[REQ]adId : e12d7a5f-adf8-4f4b-8964-e8fa51e1a8c3
+[REQ]Content-Type : application/json
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]screenDensity : 2x
+[REQ]networkType : cellular
+[REQ]segment : prepaid
+[REQ]deviceVersion : 14
+[REQ]msisdn : 0138321592
+[REQ]networkSpeed : 81
+[REQ]appVersion : 3.0.68
+[REQ]deviceId : 9944570ea8bae18a
+[REQ]os : android
+[REQ]buildNumber : 200828
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:58:21 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=6nLAIOEznbHJ2Qh3UroSpd4f_jkliaSTArdEQ1y1; path=/home-view
+[RES]Set-Cookie : GCLB=CJnTkdDKgNbinQEQAw; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"Fibre","keywords":"disney, inside out, hotstar, subscription, video, watch","termsAndConditions_array":null,"fandq_array":null},{"priority":12,"isDefault":"no","campaign":"Enjoy RM190 OFF on Pixel Watch 3","timestamp":"","offer":"Enjoy RM190 OFF on Pixel Watch 3","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdgooglepixelwatch3pre","campaignStartDate":"NA","campaignEndDate":"NA","channelName":"App","reference1":"I'm Interested!","reference2":"","reference3":"","reference4":"","marketingTagline":"Enjoy RM190 OFF on Pixel Watch 3","productPrice":"","offerName":"CelcomDigiFibre","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/SQ1C240904_Celcom_DealsBanner_EN_1050x450.jpg","deepLink":"https://shop.celcomdigi.com/device-detail/google-pixel-watch3-45mm-cd?utm_source=clapp&utm_medium=banner&utm_campaign=%7CP:DOU%7CC:sq2_celcomdigi_pixelwatch3_deals_banner_cla%7CG:AWA%7C&utm_content=BannerCLA_20241004_DeviceOutright_AppAll_sq2_celcomdigi_pixelwatch3_deals_banner_cla_no_variation","offerLocation":"","merchantName":"","cta1":"REWARDS","cta2":"https://shop.celcomdigi.com/device-detail/google-pixel-watch3-45mm-cd?utm_source=clapp&utm_medium=banner&utm_campaign=%7CP:DOU%7CC:sq2_celcomdigi_pixelwatch3_deals_banner_cla%7CG:AWA%7C&utm_content=BannerCLA_20241004_DeviceOutright_AppAll_sq2_celcomdigi_pixelwatch3_deals_banner_cla_no_variation","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"More From CelcomDigi","keywords":"pixel, google, watch, smart, 3, android","termsAndConditions_array":null,"fandq_array":null},{"priority":11,"isDefault":"no","campaign":"⚡Game at Hyperspeed Now⚡","timestamp":"","offer":"⚡Game at Hyperspeed Now⚡","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdfibregamerscodpre","campaignStartDate":"NA","campaignEndDate":"31/12/2024 23:59:59","channelName":"App","reference1":"I'm Interested!","reference2":"","reference3":"","reference4":"","marketingTagline":"⚡Game at Hyperspeed Now⚡","productPrice":"","offerName":"CelcomDigiFibre","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/app_banners/CDF240903_CLA_PromotionBanner_1050x450_CODGamePass.jpg","deepLink":"https://fibre.celcomdigi.com/campaign/gamers?utm_source=clapp&utm_medium=banner&utm_campaign=%7CP:FIB%7CC:CDFibre_Gamers_AlwaysOn%7CG:CNV%7C&utm_content=BannerCLA_20240529_Fibre_AppAll_CDFibre_Gamers_AlwaysOn_no_variation","offerLocation":"","merchantName":"","cta1":"REWARDS","cta2":"https://fibre.celcomdigi.com/campaign/gamers?utm_source=clapp&utm_medium=banner&utm_campaign=%7CP:FIB%7CC:CDFibre_Gamers_AlwaysOn%7CG:CNV%7C&utm_content=BannerCLA_20240529_Fibre_AppAll_CDFibre_Gamers_AlwaysOn_no_variation","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"Fibre","keywords":"fibre, gamer, speed, internet","termsAndConditions_array":null,"fandq_array":null},{"priority":10,"isDefault":"no","campaign":"Add on PC Game Pass for RM17/mth","timestamp":"","offer":"Add on PC Game Pass for RM17/mth","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdfibregamersvortexpre","campaignStartDate":"NA","campaignEndDate":"NA","channelName":"App","reference1":"I'm Interested!","reference2":"","reference3":"","reference4":"","marketingTagline":"Add on PC Game Pass for RM17/mth","productPrice":"","offerName":"CelcomDigiFibre","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/CDF240903_CLA_PromotionBanner_1050x450.jpg","deepLink":"https://fibre.celcomdigi.com/campaign/gamers?utm_source=clapp&utm_medium=banner&utm_campaign=%7CP:FIB%7CC:CDFibre_Gamers_AlwaysOn%7CG:CNV%7C&utm_content=BannerCLA_20240529_Fibre_AppAll_CDFibre_Gamers_AlwaysOn_no_variation","offerLocation":"","merchantName":"","cta1":"REWARDS","cta2":"https://fibre.celcomdigi.com/campaign/gamers?utm_source=clapp&utm_medium=banner&utm_campaign=%7CP:FIB%7CC:CDFibre_Gamers_AlwaysOn%7CG:CNV%7C&utm_content=BannerCLA_20240529_Fibre_AppAll_CDFibre_Gamers_AlwaysOn_no_variation","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"Fibre","keywords":"fibre, gamer, speed, internet","termsAndConditions_array":null,"fandq_array":null},{"priority":9,"isDefault":"no","campaign":"Get High-Speed Home Fibre!","timestamp":"","offer":"Get High-Speed Home Fibre!","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdfibreprepaid","campaignStartDate":"NA","campaignEndDate":"NA","channelName":"App","reference1":"Sign Up ","reference2":"","reference3":"","reference4":"","marketingTagline":"Get High-Speed Home Fibre!","productPrice":"","offerName":"FREE Fibre","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/CLA-Promo-Banner-1050x450.jpg","deepLink":"https://fibre.celcomdigi.com/campaign/cvmprepaid?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:FIB%7CC:cdf_cvm_cla_prepaid_f2m_en%7CG:AWA%7C&utm_content=AppCLA_5-Sept-2024_Fibre_AppAll_cdf_cvm_cla_prepaid_f2m_en_no_variation","offerLocation":"","merchantName":"","cta1":"REWARDS","cta2":"https://fibre.celcomdigi.com/campaign/cvmprepaid?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:FIB%7CC:cdf_cvm_cla_prepaid_f2m_en%7CG:AWA%7C&utm_content=AppCLA_5-Sept-2024_Fibre_AppAll_cdf_cvm_cla_prepaid_f2m_en_no_variation","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"Fibre","keywords":"fibre, internet, free, offer, speed","termsAndConditions_array":null,"fandq_array":null},{"priority":7,"isDefault":"no","campaign":"Enjoy Faster Unlimited Internet!","timestamp":"","offer":"Enjoy Faster Unlimited Internet!","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdprepaidspeedincrease","campaignStartDate":"NA","campaignEndDate":"NA","channelName":"App","reference1":"Subscribe Now","reference2":"","reference3":"","reference4":"","marketingTagline":"Enjoy Faster Unlimited Internet!","productPrice":"","offerName":"No.1 Prepaid","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/app_banners/SpeedUpgrade_12Mbps_CLA_DealsBanner_EN_1050x450.jpg","deepLink":"","offerLocation":"","merchantName":"","cta1":"DEEP_LINK","cta2":"sbipip","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"More From CelcomDigi","keywords":"5G, internet, speed, GB, pass","termsAndConditions_array":null,"fandq_array":null},{"priority":6,"isDefault":"no","campaign":"Easy Instalment, 0% Interest","timestamp":"","offer":"Easy Instalment, 0% Interest","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdiphoneroipre","campaignStartDate":"NA","campaignEndDate":"NA","channelName":"App","reference1":"Make It Yours","reference2":"","reference3":"","reference4":"","marketingTagline":"Easy Instalment, 0% Interest","productPrice":"","offerName":"Up to 36 Months","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/SQ1240904_CLA_Deals%20Banner_EN_1050x450_Launch.jpg","deepLink":"https://www.celcomdigi.com/devices/apple?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:DPO%7CC:sq1_iphone16_launch_cla_promo%7CG:AWA%7C&utm_content=AppCLA_20240920_DevicePostpaid_AppAll_sq1_iphone16_launch_cla_promo_no_variation","offerLocation":"","merchantName":"","cta1":"REWARDS","cta2":"https://www.celcomdigi.com/devices/apple?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:DPO%7CC:sq1_iphone16_launch_cla_promo%7CG:AWA%7C&utm_content=AppCLA_20240920_DevicePostpaid_AppAll_sq1_iphone16_launch_cla_promo_no_variation","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"Device","keywords":"iphone, apple, device, 16, pro, max","termsAndConditions_array":null,"fandq_array":null},{"priority":5,"isDefault":"no","campaign":"Tawaran Siuk Hanya di Sabah","timestamp":"","offer":"Tawaran Siuk Hanya di Sabah","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdfibresabah","campaignStartDate":"NA","campaignEndDate":"NA","channelName":"App","reference1":"Daftar Sekarang!","reference2":"","reference3":"","reference4":"","marketingTagline":"Tawaran Siuk Hanya di Sabah","productPrice":"","offerName":"Eksklusif Sabah","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/CDF241005_CLA_Promotion%20Banner_BM_1050x450.jpg","deepLink":"https://fibre.celcomdigi.com/campaign/sabah-deals?utm_source=sabah-deals&utm_medium=CLA-promobanner&utm_campaign=sabah-deals&utm_term=CTSB&utm_content=English","offerLocation":"","merchantName":"","cta1":"REWARDS","cta2":"https://fibre.celcomdigi.com/campaign/sabah-deals?utm_source=sabah-deals&utm_medium=CLA-promobanner&utm_campaign=sabah-deals&utm_term=CTSB&utm_content=English","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"Fibre","keywords":"fibre, internet, free, offer, speed","termsAndConditions_array":null,"fandq_array":null},{"priority":4,"isDefault":"no","campaign":"Enjoy Freebies Worth RM2,715!","timestamp":"","offer":"Enjoy Freebies Worth RM2,715!","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdfindx8","campaignStartDate":"NA","campaignEndDate":"NA","channelName":"App","reference1":"Get It Now","reference2":"","reference3":"","reference4":"","marketingTagline":"Enjoy Freebies Worth RM2,715!","productPrice":"","offerName":"From RM64/Month","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/CLA_DealsBanner_OppoFindX8Pro_EN_1050x450.png","deepLink":"https://www.celcomdigi.com/promotions/oppo-find-x8-pro?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:DPO%7CC:sq2_oppo_find_x8_pro_launch_cla_banner%7CG:AWA%7C&utm_content=AppCLA_20241203_DevicePostpaid_AppAll_sq2_oppo_find_x8_pro_launch_cla_banner_no_variation","offerLocation":"","merchantName":"","cta1":"REWARDS","cta2":"https://www.celcomdigi.com/promotions/oppo-find-x8-pro?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:DPO%7CC:sq2_oppo_find_x8_pro_launch_cla_banner%7CG:AWA%7C&utm_content=AppCLA_20241203_DevicePostpaid_AppAll_sq2_oppo_find_x8_pro_launch_cla_banner_no_variation","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"Device","keywords":"oppo, android, findx8, 8","termsAndConditions_array":null,"fandq_array":null},{"priority":3,"isDefault":"no","campaign":"Stay Ahead at Only RM25/month","timestamp":"","offer":"Stay Ahead at Only RM25/month","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cddynamiteentrypre","campaignStartDate":"NA","campaignEndDate":"NA","channelName":"App","reference1":"Subscribe Now","reference2":"","reference3":"","reference4":"","marketingTagline":"Stay Ahead at Only RM25/month","productPrice":"","offerName":"Unlimited Access","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/SQ2240105_CLA_MyDealsBanner_EN_1050x450_Simpack%20KV.jpg","deepLink":"http://www.celcomdigi.com/prepaid/unlimited-5g?utm_source=clapp&utm_medium=banner&utm_campaign=%7CP:%7CC:sq2_celcomdigi_prepaid_5g_unlimited_lv_banner_cla%7CG:%7C&utm_content=BannerCLA_20240301_Prepaid_AppAll_sq2_celcomdigi_prepaid_5g_unlimited_lv_banner_cla_no_variation","offerLocation":"","merchantName":"","cta1":"REWARDS","cta2":"http://www.celcomdigi.com/prepaid/unlimited-5g?utm_source=clapp&utm_medium=banner&utm_campaign=%7CP:%7CC:sq2_celcomdigi_prepaid_5g_unlimited_lv_banner_cla%7CG:%7C&utm_content=BannerCLA_20240301_Prepaid_AppAll_sq2_celcomdigi_prepaid_5g_unlimited_lv_banner_cla_no_variation","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"More From CelcomDigi","keywords":"prepaid, pass, plan","termsAndConditions_array":null,"fandq_array":null},{"priority":2,"isDefault":"no","campaign":"Surf All-Day [RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /home-view/home-data/deals?isInitialRequest=true&lang=en
+[REQ]-----START HEADERS-----
+[REQ]Accept : application/json
+[REQ]deviceModel : CPH2387
+[REQ]adId : e12d7a5f-adf8-4f4b-8964-e8fa51e1a8c3
+[REQ]Content-Type : application/json
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]screenDensity : 2x
+[REQ]networkType : cellular
+[REQ]segment : prepaid
+[REQ]deviceVersion : 14
+[REQ]msisdn : 0138321592
+[REQ]networkSpeed : 81
+[REQ]appVersion : 3.0.68
+[REQ]deviceId : 9944570ea8bae18a
+[REQ]os : android
+[REQ]buildNumber : 200828
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:58:21 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=6nLAIOEznbHJ2Qh3UroSpd4f_jkliaSTArdEQ1y1; path=/home-view
+[RES]Set-Cookie : GCLB=CJnTkdDKgNbinQEQAw; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:at Only RM39/month","timestamp":"","offer":"Surf All-Day at Only RM39/month","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cddynamiteentrypre","campaignStartDate":"NA","campaignEndDate":"NA","channelName":"App","reference1":"Subscribe Now","reference2":"","reference3":"","reference4":"","marketingTagline":"Surf All-Day at Only RM39/month","productPrice":"","offerName":"Unlimited","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/SQ2240105_CLA_MyDealsBanner_EN_1050x450_MidLevel.jpg","deepLink":"http://www.celcomdigi.com/prepaid/unlimited-5g?utm_source=clapp&utm_medium=banner&utm_campaign=%7CP:%7CC:sq2_celcomdigi_prepaid_5g_unlimited_hv_banner_cla%7CG:%7C&utm_content=BannerCLA_20240301_Prepaid_AppAll_sq2_celcomdigi_prepaid_5g_unlimited_hv_banner_cla_no_variation","offerLocation":"","merchantName":"","cta1":"REWARDS","cta2":"http://www.celcomdigi.com/prepaid/unlimited-5g?utm_source=clapp&utm_medium=banner&utm_campaign=%7CP:%7CC:sq2_celcomdigi_prepaid_5g_unlimited_hv_banner_cla%7CG:%7C&utm_content=BannerCLA_20240301_Prepaid_AppAll_sq2_celcomdigi_prepaid_5g_unlimited_hv_banner_cla_no_variation","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"More From CelcomDigi","keywords":"prepaid, pass, plan","termsAndConditions_array":null,"fandq_array":null},{"priority":1,"isDefault":"no","campaign":"3.6% Returns, Just for YOU!","timestamp":"","offer":"3.6% Returns, Just for YOU!","validity":"NA","validityText":"","id":"55816287.1586656740000.29359.cdboostbankpre","campaignStartDate":"NA","campaignEndDate":"NA","channelName":"App","reference1":"Check It Out","reference2":"","reference3":"","reference4":"","marketingTagline":"3.6% Returns, Just for YOU!","productPrice":"","offerName":"Boost Bank","offerLongDesc":"","image":"https://storage.googleapis.com/celcom-life-app-prod-resources/my_deals/Image/CGTM200_240719_Boost%20Bank%20Rebate_Phase3_App_CLA%20-%20Deals%20Banner%20(1050px%20x%20450px)%E2%80%8B.jpg","deepLink":"https://www.celcomdigi.com/promotions/boost-bank-offer?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:BST%7CC:tbc_boost_bank_offer_cla%7CG:AWA%7C&utm_content=AppCLA_20240807_Boost_AppAll_tbc_boost_bank_offer_cla_no_variation","offerLocation":"","merchantName":"","cta1":"REWARDS","cta2":"https://www.celcomdigi.com/promotions/boost-bank-offer?utm_source=clapp&utm_medium=app&utm_campaign=%7CP:BST%7CC:tbc_boost_bank_offer_cla%7CG:AWA%7C&utm_content=AppCLA_20240807_Boost_AppAll_tbc_boost_bank_offer_cla_no_variation","productQuota":"","optIn":"0","countDownTimeStart":null,"isCardVisible":true,"losMoreThenSix":false,"contractsList":null,"dbOffer":null,"offerShortCode":null,"category":"Discover More","keywords":"bank, boost, promo, 4","termsAndConditions_array":null,"fandq_array":null}],"mvivaReloadOffers":[{"key":500,"componentHeading":"Quick Reload with just4ME™","hatHeading":"","mvivaProductID":"221884711.221884711.221884711.1735660800000.11198.15745","title":"Reload RM 30","subTitle":"RM6 FREE credit for 3 days","value":"RM 30","creditDeduction":false,"offeramount":"RM 30"},{"key":800,"componentHeading":"","hatHeading":"","mvivaProductID":"221884711.221884711.221884711.1735660800000.11198.15748","title":"Reload RM 20","subTitle":"FREE RM2 credit and 5 days additional validity","value":"RM 20","creditDeduction":false,"offeramount":"RM 20"},{"key":800,"componentHeading":"","hatHeading":"","mvivaProduct[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /home-view/home-data/deals?isInitialRequest=true&lang=en
+[REQ]-----START HEADERS-----
+[REQ]Accept : application/json
+[REQ]deviceModel : CPH2387
+[REQ]adId : e12d7a5f-adf8-4f4b-8964-e8fa51e1a8c3
+[REQ]Content-Type : application/json
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]screenDensity : 2x
+[REQ]networkType : cellular
+[REQ]segment : prepaid
+[REQ]deviceVersion : 14
+[REQ]msisdn : 0138321592
+[REQ]networkSpeed : 81
+[REQ]appVersion : 3.0.68
+[REQ]deviceId : 9944570ea8bae18a
+[REQ]os : android
+[REQ]buildNumber : 200828
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:58:21 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=6nLAIOEznbHJ2Qh3UroSpd4f_jkliaSTArdEQ1y1; path=/home-view
+[RES]Set-Cookie : GCLB=CJnTkdDKgNbinQEQAw; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:ID":"221884711.221884711.221884711.1735660800000.11198.15749","title":"Reload RM 10","subTitle":"FREE RM1 credit and 2 days additional validity","value":"RM 10","creditDeduction":false,"offeramount":"RM 10"}],"promoPageCategories":[{"label":"All Deals","active":true,"specialCampaign":false},{"label":"Meriahkan 2025G\uD83C\uDF86","active":true,"specialCampaign":true},{"label":"More From CelcomDigi","active":true,"specialCampaign":false},{"label":"Device","active":true,"specialCampaign":false},{"label":"Fibre","active":true,"specialCampaign":false},{"label":"Discover More","active":true,"specialCampaign":false}]}[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /home-view/home-data/other?isInitialRequest=true&lang=en
+[REQ]-----START HEADERS-----
+[REQ]Accept : application/json
+[REQ]deviceModel : CPH2387
+[REQ]adId : e12d7a5f-adf8-4f4b-8964-e8fa51e1a8c3
+[REQ]Content-Type : application/json
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]screenDensity : 2x
+[REQ]networkType : cellular
+[REQ]segment : prepaid
+[REQ]deviceVersion : 14
+[REQ]msisdn : 0138321592
+[REQ]networkSpeed : 81
+[REQ]appVersion : 3.0.68
+[REQ]deviceId : 9944570ea8bae18a
+[REQ]os : android
+[REQ]buildNumber : 200828
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:58:21 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=vdIKswEz9hcSDNmw9eXqhw2yS-Zzck6NcywRua2B; path=/home-view
+[RES]Set-Cookie : GCLB=CNjY-pCj-ezsYRAD; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:{"statusCode":0,"statusDesc":null,"connections":[{"assetBillingAccountNo":"A200083317","prePosIndicator":"Prepaid","msisdn":"0138321592","neptunePlan":false,"starPlan":false,"parentNumber":"","primary":true,"segment":"prepaid","customerIDType":"New NRIC","customerID":"720514125755","starFamilyPlan":false,"isLifestyleContract":false,"isLite":false,"billingType":"Billable"}],"roamingLastUpdated":{"roamingLastUpdated":"15-03-2024 04:13:55"},"eligibleForFriend":false,"friendList":null,"los":0,"displayRoamingPassDate":false,"serverTime":"2025-01-01T05:58:21.652Z"}[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /home-view/home-data/balance?isInitialRequest=true&lang=en
+[REQ]-----START HEADERS-----
+[REQ]Accept : application/json
+[REQ]deviceModel : CPH2387
+[REQ]adId : e12d7a5f-adf8-4f4b-8964-e8fa51e1a8c3
+[REQ]Content-Type : application/json
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]screenDensity : 2x
+[REQ]networkType : cellular
+[REQ]segment : prepaid
+[REQ]deviceVersion : 14
+[REQ]msisdn : 0138321592
+[REQ]networkSpeed : 81
+[REQ]appVersion : 3.0.68
+[REQ]deviceId : 9944570ea8bae18a
+[REQ]os : android
+[REQ]buildNumber : 200828
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:58:21 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=aLxT_ZMoS_Vj6dvjfW_TZW2k9gejtIo6QlthOnIf; path=/home-view
+[RES]Set-Cookie : GCLB=CIjbmenh-9ztKBAD; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:{"statusCode":0,"statusDesc":null,"duePayment":{"payment":null,"payBefore":"2025-01-04 23:59:59","balance":"9.90","lineStatus":"Credit Expiring","prePosIndicator":"Prepaid","sharingMode":null,"assetBillingAccountNo":"A200083317","baCreditLimit":null,"unbilledUsage":null,"bsDueDate":"","bcEndDate":"","planName":"Celcom XPAX Pantas RM10","autoReloadResponse":{"statusCode":0,"statusDesc":null,"id":0,"token":null,"cardPaddedNum":null,"cardType":null,"bank":null,"addedDate":null,"msisdn":null,"segment":null,"autoReloadType":null,"autoReloadDate":null,"autoReloadAmount":null,"autoReloadTriggerAmount":null,"clientRefId":null,"active":false,"autoReloadEnable":false,"autoBilling":false,"primary":false},"validityExtensionList":[{"productId":"1","offerName":"1 Day for RM1","amount":"1","validity":"1","validityDate":"05/01/2025","promo":null,"secondPromo":null},{"productId":"2","offerName":"3 Days for RM2","amount":"2","validity":"3","validityDate":"07/01/2025","promo":null,"secondPromo":null},{"productId":"3","offerName":"15 Days for RM8","amount":"8","validity":"15","validityDate":"19/01/2025","promo":null,"secondPromo":null}],"isLow":false},"barred":false}[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /home-view/home-data/campaigns?isInitialRequest=true&lang=en
+[REQ]-----START HEADERS-----
+[REQ]Accept : application/json
+[REQ]deviceModel : CPH2387
+[REQ]adId : e12d7a5f-adf8-4f4b-8964-e8fa51e1a8c3
+[REQ]Content-Type : application/json
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]screenDensity : 2x
+[REQ]networkType : cellular
+[REQ]segment : prepaid
+[REQ]deviceVersion : 14
+[REQ]msisdn : 0138321592
+[REQ]networkSpeed : 81
+[REQ]appVersion : 3.0.68
+[REQ]deviceId : 9944570ea8bae18a
+[REQ]os : android
+[REQ]buildNumber : 200828
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:58:21 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=7TWO7n0uqDUBlFEXNggw39ljoZPVe_3tszeuYJTT; path=/home-view
+[RES]Set-Cookie : GCLB=CKS2svjJ4ur9dBAD; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:{"statusCode":0,"statusDesc":null,"campaigns":[],"nboOffers":[{"id":"2.221884711.20250101000000.1.1","offerName":"2000GB","validity":9,"amount":"5.00","quota":2000.0,"productId":2060113,"offerPos":1,"validityType":"DAY","amountLabel":"RM","offerType":"HERO","offerCategory":"MI","isDependentOffer":0,"addOnValidityText":null,"validityText":"9 days","offerDependency":"","displayUpsell":true,"tandCURL":null,"faqURL":null,"specialPromoColor":"","dealsCardImage":"https://storage.googleapis.com/celcom-life-app-pre-prod-resources/my_deals/230724%20Just4ME%20Prepaid%20Pop-up%20Update/SQ3240503_CLA_PopUpBanner_EN_624x270.jpg","justForMeS[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /home-view/home-data/campaigns?isInitialRequest=true&lang=en
+[REQ]-----START HEADERS-----
+[REQ]Accept : application/json
+[REQ]deviceModel : CPH2387
+[REQ]adId : e12d7a5f-adf8-4f4b-8964-e8fa51e1a8c3
+[REQ]Content-Type : application/json
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]screenDensity : 2x
+[REQ]networkType : cellular
+[REQ]segment : prepaid
+[REQ]deviceVersion : 14
+[REQ]msisdn : 0138321592
+[REQ]networkSpeed : 81
+[REQ]appVersion : 3.0.68
+[REQ]deviceId : 9944570ea8bae18a
+[REQ]os : android
+[REQ]buildNumber : 200828
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:58:21 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=7TWO7n0uqDUBlFEXNggw39ljoZPVe_3tszeuYJTT; path=/home-view
+[RES]Set-Cookie : GCLB=CKS2svjJ4ur9dBAD; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:creenImg":"https://storage.googleapis.com/celcom-life-app-pre-prod-resources/my_deals/230724%20Just4ME%20Prepaid%20Pop-up%20Update/SQ3240503_CLA_PopUpBanner_EN_624x270.jpg","specialTitleColor":"#EE3E80","isEligibleCheckRequired":false,"isUpSellAddOnEnabled":false,"dependentOfferToShow":20,"showPGOption":true,"offerNote":"","offerTextColor":1,"hatHeading":"5G/4G","b40IneligibleStatus":null,"lowSubAccountBalStatus":null,"multiplePurchaseNotAllowed":{"title":"Multiple Purchase","subTitle":"It seems that you have purchased this Add-On. To check your subscription go to Usage > Internet.","primaryButtonText":"Purchase Different just4ME™","extraNotes":""},"dependentOffersList":[],"content":null,"productName":null,"termsAndConditionsArray":null,"fandqArray":null,"p2pCondition":false,"hatHeadingSecond":"","isB40Product":false,"isB40Subscribe":false},{"id":"2.221884711.20250101000000.1.2","offerName":"Unlimited Video Pass 3Mbps","validity":3,"amount":"5.00","quota":999.0,"productId":2060497,"offerPos":2,"validityType":"DAY","amountLabel":"RM","offerType":"HERO","offerCategory":"Addon-MS","isDependentOffer":0,"addOnValidityText":null,"validityText":"3 days","offerDependency":"","displayUpsell":true,"tandCURL":null,"faqURL":null,"specialPromoColor":"","dealsCardImage":"https://storage.googleapis.com/celcom-life-app-pre-prod-resources/my_deals/230724%20Just4ME%20Prepaid%20Pop-up%20Update/SQ3240503_CLA_PopUpBanner_EN_624x270.jpg","justForMeScreenImg":"https://storage.googleapis.com/celcom-life-app-pre-prod-resources/my_deals/230724%20Just4ME%20Prepaid%20Pop-up%20Update/SQ3240503_CLA_PopUpBanner_EN_624x270.jpg","specialTitleColor":"#EE3E80","isEligibleCheckRequired":false,"isUpSellAddOnEnabled":false,"dependentOfferToShow":20,"showPGOption":false,"offerNote":"","offerTextColor":1,"hatHeading":"","b40IneligibleStatus":null,"lowSubAccountBalStatus":null,"multiplePurchaseNotAllowed":{"title":"Multiple Purchase","subTitle":"It seems that you have purchased this Add-On. To check your subscription go to Usage > Internet.","primaryButtonText":"Purchase Different just4ME™","extraNotes":""},"dependentOffersList":[],"content":null,"productName":null,"termsAndConditionsArray":null,"fandqArray":null,"p2pCondition":false,"hatHeadingSecond":"","isB40Product":false,"isB40Subscribe":false},{"id":"2.221884711.20250101000000.1.3","offerName":"2025 GB","validity":4,"amount":"7.00","quota":2025.0,"productId":2070034,"offerPos":3,"validityType":"DAY","amountLabel":"RM","offerType":"HERO","offerCategory":"Addon-MS","isDependentOffer":0,"addOnValidityText":null,"validityText":"4 days","offerDependency":"","displayUpsell":true,"tandCURL":null,"faqURL":null,"specialPromoColor":"","dealsCardImage":"https://storage.googleapis.com/celcom-life-app-pre-prod-resources/my_deals/230724%20Just4ME%20Prepaid%20Pop-up%20Update/SQ3240503_CLA_PopUpBanner_EN_624x270.jpg","justForMeScreenImg":"https://storage.googleapis.com/celcom-life-app-pre-prod-resources/my_deals/230724%20Just4ME%20Prepaid%20Pop-up%20Update/SQ3240503_CLA_PopUpBanner_EN_624x270.jpg","specialTitleColor":"#EE3E80","isEligibleCheckRequired":false,"isUpSellAddOnEnabled":false,"dependentOfferToShow":20,"showPGOption":false,"offerNote":"","offerTextColor":1,"hatHeading":"5G/4G","b40IneligibleStatus":null,"lowSubAccountBalStatus":null,"multiplePurchaseNotAllowed":{"title":"Multiple Purchase","subTitle":"It seems that you have purchased this Add-On. To check your subscription go to Usage > Internet.","primaryButtonText":"Purchase Different just4ME™","extraNotes":""},"dependentOffersList":[],"content":null,"productName":null,"termsAndConditionsArray":null,"fandqArray":null,"p2pCondition":false,"hatHeadingSecond":"","isB40Product":false,"isB40Subscribe":false},{"id":"2.221884711.20250101000000.1.4","offerName":"88GB","validity":1,"amount":"5.00","quota":88.0,"productId":2060113,"offerPos":4,"validityType":"DAY","amountLabel":"RM","offerType":"HERO","offerCategory":"MI","isDependentOffer":0,"addOnValidityText":null,"validityText":"1 day","offerDependency":"","displayUpsell":true,"tandCURL":null,"faqURL":null,"specialPromoColor":"","dealsCardImage":"https://storage.googleapis.com/celcom-life-app-pre-prod-resources/my_deals/230724%20Just4ME%20Prepaid%20Pop-up%20Update/SQ3240503_CLA_PopUpBanner_EN_624x270.jpg","justForMeScreenImg":"https://storage.googleapis.com/celcom-life-app-pre-prod-resources/my_deals/230724%20Just4ME%20Prepaid%20Pop-up%20Update/SQ3240503_CLA_PopUpBanner_EN_624x270.jpg","specialTitleColor":"#EE3E80","isEligibleCheckRequired":false,"isUpSellAddOnEnabled":false,"dependentOfferToShow":20,"showPGOption":true,"offerNote":"","offerTextColor":1,"hatHeading":"Big Data Deals","b40IneligibleStatus":null,"lowSubAccountBalStatus":null,"multiplePurchaseNotAllowed":{"title":"Multiple Purchase","subTitle":"It seems that you have purchased this Add-On. To check your subscription go to Usage > Internet.","primaryButtonText":"Purchase Different just4ME™","extraNotes":""},"dependentOffersList":[],"content":null,"productName":null,"termsAndConditionsArray":null,"fandqArray":null,"p2pCondition":false,"hatHeadingSecond":"","isB40Product":false,"isB40Subscribe":false},{"id":"2.221884711.20250101000000.1.5","offerName":"14GB","validity":30,"amount":"20.00","quota":14.0,"productId":2060113,"offerPos":5,"validityType":"DAY","amountLabel":"RM","offerType":"REG","offerCategory":"MI","isDependentOffer":0,"addOnValidityText":null,"validityText":"30 days","offerDependency":"","displayUpsell":true,"tandCURL":null,"faqURL":null,"specialPromoColor":"","dealsCardImage":"https://storage.googleapis.com/celcom-life-app-pre-prod-resources/my_deals/230724%20Just4ME%20Prepaid%20Pop-up%20Update/SQ3240503_CLA_PopUpBanner_EN_624x270.jpg","justForMeScreenImg":"https://storage.googleapis.com/celcom-life-app-pre-prod-resources/my_deals/230724%20Just4ME%20Prepaid%20Pop-up%20Update/SQ3240503_CLA_PopUpBanner_EN_624x270.jpg","specialTitleColor":null,"isEligibleCheckRequired":false,"isUpSellAddOnEnabled":false,"dependentOfferToShow":20,"showPGOption":true,"offerNote":"","offerTextColor":0,"hatHeading":"5G/4G","b40IneligibleStatus":null,"lowSubAccountBalStatus":null,"multiplePurchaseNotAllowed":{"title":"Multiple Purchase","subTitle":"It seems that you have purchased this Add-On. To check your subscription go to Usage > Internet.","primaryButtonText":"Purchase Different just4ME™","extraNotes":""},"dependentOffersList":[],"content":null,"productName":null,"termsAndConditionsArray":null,"fandqArray":null,"p2pCondition":false,"hatHeadingSecond":"","isB40Product":false,"isB40Subscribe":false},{"id":"2.221884711.20250101000000.1.6","offerName":"3GB","validity":3,"amount":"5.00","quota":3.0,"productId":2060113,"offerPos":6,"validityType":"DAY","amountLabel":"RM","offerType":"REG","offerCategory":"MI","isDependentOffer":0,"addOnValidityText":null,"validityText":"3 days","offerDependency":"","displayUpsell":true,"tandCURL":null,"faqURL":null,"specialPromoColor":"","dealsCardImage":"https://storage.googleapis.com/celcom-life-app-pre-prod-resources/my_deals/230724%20Just4ME%20Prepaid%20Pop-up%20Update/SQ3240503_CLA_PopUpBanner_EN_624x270.jpg","justForMeScreenImg":"https://storage.googleapis.com/celcom-life-app-pre-prod-resources/my_deals/230724%20Just4ME%20Prepaid%20Pop-up%20Update/SQ3240503_CLA_PopUpBanner_EN_624x270.jpg","specialTitleColor":null,"isEligibleCheckRequired":false,"isUpSellAddOnEnabled":false,"dependentOfferToShow":20,"showPGOption":true,"offerNote":"","offerTextColor":0,"hatHeading":"","b40IneligibleStatus":null,"lowSubAccountBalStatus":null,"multiplePurchaseNotAllowed":{"title":"Multiple Purchase","subTitle":"It seems that you have purchased this Add-On. To check your subscription go to Usage > Internet.","primaryButtonText":"Purchase Different just4ME™","extraNotes":""},"dependentOffersList":[],"content":null,"productName":null,"termsAndConditionsArray":null,"fandqArray":null,"p2pCondition":false,"hatHeadingSecond":"","isB40Product":false,"isB40Subscribe":false},{"id":"2.221884711.20250101000000.1.7","offerName":"3GB","validity":1,"amount":"3.00","quota":3.0,"productId":2060113,"offerPos":7,"validityType":"DAY","amountLabel":"RM","offerType":"REG","offerCategory":"MI","isDependentOffer":0,"addOnValidityText":null,"validityText":"1 day","offerDependency":"","displayUpsell":true,"tandCURL":null,"faqURL":null,"specialPromoColor":"","dealsCardImage":"https://storage.googleapis.com/celcom-life-app-pre-prod-resources/my_deals/230724%20Just4ME%20Prepaid%20Pop-up%20Update/SQ3240503_CLA_PopUpBanner_EN_624x270.jpg","justForMeScreenImg":"https://storage.googleapis.com/celcom-life-app-pre-prod-resources/my_deals/230724%20Just4ME%20Prepaid%20Pop-up%20Update/SQ3240503_CLA_PopUpBanner_EN_624x270.jpg","specialTitleColor":null,"isEligibleCheckRequired":false,"isUpSellAddOnEnabled":false,"dependentOfferToShow":20,"showPGOption":true,"offerNote":"","offerTextColor":0,"hatHeading":"","b40IneligibleStatus":null,"lowSubAccountBalStatus":null,"multiplePurchaseNotAllowed":{"title":"Multiple Purchase","subTitle":"It seems that you have purchased this Add-On. To check your subscription go to Usage > Internet.","primaryButtonText":"Purchase Different just4ME™","extraNotes":""},"dependentOffersList":[],"content":null,"productName":null,"termsAndConditionsArray":null,"fandqArray":null,"p2pCondition":false,"hatHeadingSecond":"","isB40Product":false,"isB40Subscribe":false}],"postnboOffers":[],"tealiveCampaignResponse":null}[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /home-view/home-data/usage?isInitialRequest=true&lang=en
+[REQ]-----START HEADERS-----
+[REQ]Accept : application/json
+[REQ]deviceModel : CPH2387
+[REQ]adId : e12d7a5f-adf8-4f4b-8964-e8fa51e1a8c3
+[REQ]Content-Type : application/json
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]screenDensity : 2x
+[REQ]networkType : cellular
+[REQ]segment : prepaid
+[REQ]deviceVersion : 14
+[REQ]msisdn : 0138321592
+[REQ]networkSpeed : 81
+[REQ]appVersion : 3.0.68
+[REQ]deviceId : 9944570ea8bae18a
+[REQ]os : android
+[REQ]buildNumber : 200828
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:58:24 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=spg_OPEaikTOqGzh7dZkF5Nren_MNp2-HnSKzB9F; path=/home-view
+[RES]Set-Cookie : GCLB=CPvw1Mel5IjYRhAD; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:{"statusCode":0,"statusDesc":null,"localUsage":null,"eligibleForBonus":false,"roamingUsage":null,"roamingInfo":null,"roamingActive":false,"postpaidCreditInfo":null,"isBMPSubscribed":false}[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /subscriber-credit-mgmt/card-info?lang=en
+[REQ]-----START HEADERS-----
+[REQ]Accept : application/json
+[REQ]msisdn : 0138321592
+[REQ]Content-Type : application/json
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]appVersion : 3.0.68
+[REQ]buildNumber : 200828
+[REQ]os : android
+[REQ]screenDensity : 2x
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:58:31 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=xm-DrXMcat96Za6hmI2uf1t1b63LWOKnHAaEiN2Q; path=/subscriber-credit-mgmt
+[RES]Set-Cookie : GCLB=CP2rm4qm7t-dMxAD; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:{[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /subscriber-credit-mgmt/card-info?lang=en
+[REQ]-----START HEADERS-----
+[REQ]Accept : application/json
+[REQ]msisdn : 0138321592
+[REQ]Content-Type : application/json
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]appVersion : 3.0.68
+[REQ]buildNumber : 200828
+[REQ]os : android
+[REQ]screenDensity : 2x
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:58:31 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=xm-DrXMcat96Za6hmI2uf1t1b63LWOKnHAaEiN2Q; path=/subscriber-credit-mgmt
+[RES]Set-Cookie : GCLB=CP2rm4qm7t-dMxAD; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:"[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /subscriber-credit-mgmt/card-info?lang=en
+[REQ]-----START HEADERS-----
+[REQ]Accept : application/json
+[REQ]msisdn : 0138321592
+[REQ]Content-Type : application/json
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]appVersion : 3.0.68
+[REQ]buildNumber : 200828
+[REQ]os : android
+[REQ]screenDensity : 2x
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:58:31 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=xm-DrXMcat96Za6hmI2uf1t1b63LWOKnHAaEiN2Q; path=/subscriber-credit-mgmt
+[RES]Set-Cookie : GCLB=CP2rm4qm7t-dMxAD; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:m[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /subscriber-credit-mgmt/card-info?lang=en
+[REQ]-----START HEADERS-----
+[REQ]Accept : application/json
+[REQ]msisdn : 0138321592
+[REQ]Content-Type : application/json
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]appVersion : 3.0.68
+[REQ]buildNumber : 200828
+[REQ]os : android
+[REQ]screenDensity : 2x
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:58:31 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=xm-DrXMcat96Za6hmI2uf1t1b63LWOKnHAaEiN2Q; path=/subscriber-credit-mgmt
+[RES]Set-Cookie : GCLB=CP2rm4qm7t-dMxAD; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:s[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /subscriber-credit-mgmt/card-info?lang=en
+[REQ]-----START HEADERS-----
+[REQ]Accept : application/json
+[REQ]msisdn : 0138321592
+[REQ]Content-Type : application/json
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]appVersion : 3.0.68
+[REQ]buildNumber : 200828
+[REQ]os : android
+[REQ]screenDensity : 2x
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:58:31 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=xm-DrXMcat96Za6hmI2uf1t1b63LWOKnHAaEiN2Q; path=/subscriber-credit-mgmt
+[RES]Set-Cookie : GCLB=CP2rm4qm7t-dMxAD; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:isdn":"0138321592","cardAvailability":false,"cardsInfo":null}[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /subscriber-usage-info/v2/local?lang=en&isB40RedeemChecked=true&is1GBRedeemCheck=false
+[REQ]-----START HEADERS-----
+[REQ]Accept : application/json
+[REQ]msisdn : 0138321592
+[REQ]Content-Type : application/json
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]prePosIndicator : Prepaid
+[REQ]appVersion : 3.0.68
+[REQ]buildNumber : 200828
+[REQ]os : android
+[REQ]screenDensity : 2x
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:58:31 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=70D49815502BA0F667341BDA84BF8301; Path=/subscriber-usage-info; HttpOnly
+[RES]Set-Cookie : GCLB=CNKYoaHzl7DOrAEQAw; path=/; HttpOnly
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:{"statusCode":500,"statusDesc":"Index: 0, Size: 0"}[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: GET
+[REQ]Path: /subscriber-billing-info/billing/billusage?issdrRequired=true&localPage=true&lang=en
+[REQ]-----START HEADERS-----
+[REQ]Accept : application/json
+[REQ]msisdn : 0138321592
+[REQ]Content-Type : application/json
+[REQ]Authorization : eyJhbGciOiJSUzI1NiIsImtpZCI6ImMwYTQwNGExYTc4ZmUzNGM5YTVhZGU5NTBhMjE2YzkwYjVkNjMwYjMiLCJ0eXAiOiJKV1QifQ.eyJhdXRoX3VzZXJfYXBwX3ZlcnNpb24iOiIzLjAuNjgiLCJhdXRoX3VzZXJfb3MiOiJhbmRyb2lkIiwiYXV0aF91c2VyX2RldmljZV92ZXJzaW9uIjoiMTQiLCJsb2dnZWRfdXNlciI6IjAxMzgzMjE1OTIiLCJ1c2VyX2FjY291bnRzIjpbIjAxMzgzMjE1OTIiLCIwMTM4MzIxNTkyIl0sInByZXBvc19pbmRpY2F0b3IiOiJQcmVwYWlkIiwiaXNfQ29ycG9yYXRlIjpmYWxzZSwiYXV0aF91c2VyX2RldmljZV9pZCI6Ijk5NDQ1NzBlYThiYWUxOGEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2VsY29tLWxpZmUtYXBwLXByb2R1Y3Rpb24iLCJhdWQiOiJjZWxjb20tbGlmZS1hcHAtcHJvZHVjdGlvbiIsImF1dGhfdGltZSI6MTczNTcxMDMxMiwidXNlcl9pZCI6IlNDWDVGQTZIc3labFJ6VmRieW12bk9VcjFZSDMiLCJzdWIiOiJTQ1g1RkE2SHN5WmxSelZkYnltdm5PVXIxWUgzIiwiaWF0IjoxNzM1NzEwMzEyLCJleHAiOjE3MzU3MTM5MTIsInBob25lX251bWJlciI6Iis2MDEzODMyMTU5MiIsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsicGhvbmUiOlsiKzYwMTM4MzIxNTkyIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiY3VzdG9tIn19.EB7-NcwXPob_TeQ_ek_50RPkYu7Ivsl3avG6jsOsQ31kZqPWjuQ7Y94qSnIaOvD7vBW5ZBNmfPIxXLWIsupBR76M2BUmxMM_mBNrQbgFEwc2kuDAKEx1DMgEGHdUksyRW5CBCBnR_H4GHL5Ikmn8Jd_8_9A6skZA28H82ZsrBRb_Gyn-I5BP8tBoqqmAp62XAI3ykQPS_p3B1rW6fiI4bo6Jb4GsbBidDDr4I4tfXWEzTvYFpAjgRYPmBrlT-uzHreUuad7QOcaBdg98V502H91mzOdzN1ZPory41EwhSEpxEmdB0ezzoFDM2dGjud5r-uPnQoP3zFaMtqH4OsF2Sg
+[REQ]appVersion : 3.0.68
+[REQ]buildNumber : 200828
+[REQ]os : android
+[REQ]screenDensity : 2x
+[REQ]Accept-Charset : UTF-8
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : apicl3.celcom.com.my
+[REQ]Connection : Keep-Alive
+[REQ]Accept-Encoding : gzip
+[REQ]--------END HEADERS -------
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Server : rhino-core-shield
+[RES]Date : Wed, 01 Jan 2025 05:58:31 GMT
+[RES]Content-Type : application/json;charset=UTF-8
+[RES]Vary : Accept-Encoding
+[RES]Vary : Origin
+[RES]Vary : Access-Control-Request-Method
+[RES]Vary : Access-Control-Request-Headers
+[RES]Set-Cookie : JSESSIONID=D6AA28270612BC4964ADFF8D7B561581; Path=/subscriber-billing-info; HttpOnly
+[RES]Set-Cookie : GCLB=CMnc4_Cm6oe5EBAD; path=/; HttpOnly
+[RES]Content-Encoding : gzip
+[RES]Via : 1.1 google
+[RES]Strict-Transport-Security : max-age=31536000; includeSubDomains; preload
+[RES]Alt-Svc : h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[RES]Transfer-Encoding : chunked
+[RES]RESPONSE BODY:{"statusCode":0,"statusDesc":"Success","messageId":null,"message":null,"title":null,"cta":null,"billingAccountStatus":"Active","assetBillingAccountNo":"A200083317","serviceType":"","prePosIndicator":"Prepaid","plan":"Celcom XPAX Pantas Plan","lineStatus":"Credit Expiring","balance":"9.90","prodPromName":"Celcom XPAX Pantas RM10","segmentGroup":"Consumer","customerIDType":"New NRIC","sharingMode":null,"assetStatus":"Active","billingProfileId":"A200083317","showInAppReview":false,"autoReloadResponse":{"statusCode":0,"statusDesc":null,"messageId":null,"message":null,"title":null,"cta":null,"id":0,"token":null,"cardPaddedNum":null,"cardType":null,"bank":null,"addedDate":null,"msisdn":null,"segment":null,"autoReloadType":null,"autoReloadDate":null,"autoReloadAmount":null,"autoReloadTriggerAmount":null,"clientRefId":null,"primary":false,"autoBilling":false,"autoReloadEnable":false,"active":false},"dependentOffersList":null,"subAccounts":[],"billingType":"Billable","customerID":"720514125755","daysRemaining":3,"paybefore":"2025-01-04 23:59:59","displayPaybefore":"04/01/2025","ebillingResponse":null}[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@
+[REQ]@@@@@#START  REQRES(has body)@@@@@@
+[REQ]#####START PAYLOAD#####
+[REQ]Method: POST
+[REQ]Path: /mbeacon/6c47242f-86bf-482a-a807-2379826ca8fc?type=m&srvid=16&app=e9ba6289-2990-4491-bb2c-bc8c2d6c256b&va=8.255.1.1005&tt=maandroid&pt=0&resp=json&cts=0&si=424649534_11
+[REQ]-----START HEADERS-----
+[REQ]Connection : close
+[REQ]Accept-Encoding : identity, gzip
+[REQ]Content-Type : text/plain; charset=utf-8
+[REQ]Content-Encoding : gzip
+[REQ]User-Agent : Dalvik/2.1.0 (Linux; U; Android 14; CPH2387 Build/SP1A.210812.016)
+[REQ]Host : jyc292.dynatrace-managed.com:9999
+[REQ]Content-Length : 734
+[REQ]--------END HEADERS -------
+[REQ]++++++START BODY++++++
+[REQ]BODY:
+�      ���I�;�u�&��0o��@#��8��2�ݭn��?/=��^�����+�\�3r8Wh�L�=�SB$T#v��3��YK���YsW7�a�j�T5T�S3��7��A�0��M���?� �52B3p���d��ȡ`B	+���#�0�H`�k����};��Q��>>���Ň�׌�E�|��'����G���f��He0����1D�<��	��cc)	̈́���b��=9h��G� �aU��О�A�>�3N���RSJ�2BB��<A)3�@?"�. ��+<T��7��]�.$X��*.�	*�0S�h�eh!0���̑�k�r��)�H�9 �c y	�R .��@0�6����P��?����2�(4QH��E��~�F��\]��!��k�����q�/]{������.!L��L7	O���?�t��o�PhI�f��q�o�����&ON�,��]��n�]h�]M޵:Ȳ�J���tX���=>Ļ릛�X6c���4�`��FQ1&+檈��*��<��n���8��B�Z���⮔�FI�͌�-*I�V�m]�7�E�.��S_���ꕠ��
+5\�k�OU�
+����3��l�j�K���+%�Q�˙����-g�W%I�o��o\,eoJw��dҕ�<^VjRs+���OS�{�=�"�����]5�F�!��g�f�0��J���Y;]�9vIG$�!���q���.  [REQ]
++++++++END BODY++++++
+[REQ]########END PAYLOAD#########
+[RES]++++++START RESPONSE++++++
+[RES]Connection : close
+[RES]Date : Wed, 01 Jan 2025 05:58:33 GMT
+[RES]Content-Type : text/plain;charset=utf-8
+[RES]Cache-Control : no-cache
+[RES]Strict-Transport-Security : max-age=31536000
+[RES]Content-Length : 74
+[RES]RESPONSE BODY:{"dynamicConfig": {"serverId":-1, "switchServer":false, "status":"ERROR"}}[RES]
++++++++END RESPONSE++++++
+[REQ]@@@@@END  REQRES@@@@@@

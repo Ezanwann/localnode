@@ -1,0 +1,300 @@
+0 | cp :EAPRUE0E84K
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+1 | cp :EAPRUBAU260
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+2 | cp :EAPRU8SBUSV
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+3 | cp :EAPRUV5F9JH
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+4 | cp :EAPRU744AFX
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+5 | cp :EAPRU91XN5Q
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+6 | cp :EAPRU1831DV
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+7 | cp :EAPRUG5HSIR
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+8 | cp :EAPRULT2VHL
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+9 | cp :EAPRULKOHZ3
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+10 | cp :EAPRU3NY8Y5
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+11 | cp :EAPRU819AFU
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+12 | cp :EAPRUE8V4OO
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+13 | cp :EAPRU2X2HO6
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+14 | cp :EAPRU85OSOV
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+15 | cp :EAPRUARVN3R
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+16 | cp :EAPRUS9A4AM
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+17 | cp :EAPRUR476K6
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+18 | cp :EAPRUDV26HU
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+19 | cp :EAPRU2ZU0L6
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+20 | cp :EAPRUV7N862
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+21 | cp :EAPRU9HNHN5
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+22 | cp :EAPRUEIKU23
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+23 | cp :EAPRU4HP36H
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+24 | cp :EAPRUK35SZL
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+25 | cp :EAPRU4SPULQ
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+26 | cp :EAPRU2RHIV9
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+27 | cp :EAPRUM949N0
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+28 | cp :EAPRUX9KNON
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+29 | cp :EAPRUCTV8J1
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+30 | cp :EAPRUE3D68N
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+31 | cp :EAPRUV9XX64
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+32 | cp :EAPRU5S4IAO
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+33 | cp :EAPRUN6H440
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+34 | cp :EAPRUEUSH94
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+35 | cp :EAPRU17KIPB
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+36 | cp :EAPRU1H8AOL
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+37 | cp :EAPRU6U6LF8
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+38 | cp :EAPRUHV9OVX
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+39 | cp :EAPRUK0N0UM
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+40 | cp :EAPRU42NVV3
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+41 | cp :EAPRUO591AO
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+42 | cp :EAPRU3GG0HN
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+43 | cp :EAPRUO4ST1X
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+44 | cp :EAPRU2IZE9A
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+45 | cp :EAPRU4LF55E
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+46 | cp :EAPRUC48JO6
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+47 | cp :EAPRUNYSVQO
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+48 | cp :EAPRU99EL4S
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+49 | cp :EAPRUW7JNZ1
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+50 | cp :EAPRUV8O98H
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+51 | cp :EAPRUH695LX
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+52 | cp :EAPRU61IWH2
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+53 | cp :EAPRU4U2K8L
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+54 | cp :EAPRU3565L8
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+55 | cp :EAPRUUK4C66
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+56 | cp :EAPRU8N1LN1
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+57 | cp :EAPRUW4PW3V
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+58 | cp :EAPRUDHXO9W
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+59 | cp :EAPRU4YOZLU
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+60 | cp :EAPRU6R74OL
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+61 | cp :EAPRUJ564PC
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+62 | cp :EAPRUC9EN1X
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+63 | cp :EAPRUEXUX41
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+64 | cp :EAPRUDH8884
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+65 | cp :EAPRU0KE4KM
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+66 | cp :EAPRU6RDGNH
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+67 | cp :EAPRU55AH1D
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+68 | cp :EAPRU5XPVL5
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+69 | cp :EAPRUNR9EVM
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+70 | cp :EAPRUX34R2V
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+71 | cp :EAPRU9ES5US
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+72 | cp :EAPRU2FI4H8
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+73 | cp :EAPRUEO5UX9
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+74 | cp :EAPRUZ1K9WG
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+75 | cp :EAPRUHFLO0P
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+76 | cp :EAPRUAOHHX5
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+77 | cp :EAPRUNDRU9L
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+78 | cp :EAPRUILYMHS
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+79 | cp :EAPRUV5V0DI
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+80 | cp :EAPRU9JH9SI
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+81 | cp :EAPRULO4SXG
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+82 | cp :EAPRUXHBHVM
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+83 | cp :EAPRU36SYRT
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+84 | cp :EAPRUO2KB6I
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+85 | cp :EAPRUN839NX
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+86 | cp :EAPRU2E1DXV
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+87 | cp :EAPRUW88E8S
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+88 | cp :EAPRUNTEOVV
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+89 | cp :EAPRUOYHHAQ
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+90 | cp :EAPRUQR5AE2
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+91 | cp :EAPRU4N881V
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+92 | cp :EAPRUELI4KT
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+93 | cp :EAPRU2H6E4I
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+94 | cp :EAPRUX8T16L
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+95 | cp :EAPRUONN282
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+96 | cp :EAPRUHUUFZU
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+97 | cp :EAPRUF5HQ6X
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+98 | cp :EAPRU80HLV9
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
+99 | cp :EAPRUWE3OUU
+{"data":{"cashVoucherValidate":{"voucherCode":null,"responseCode":"REJECTED","message":"Sorry, the promo code is invalid.","refId":null,"value":null,"valid":"false","isCaptchaValid":"true","__typename":"cashVoucherValidateOutput"}}}
+++++++++++
